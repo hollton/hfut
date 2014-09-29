@@ -1,3 +1,4 @@
+/*-----------------------天气------------------*/
 function doAjaxCall(the_request)
     {
         var request=null;
@@ -43,16 +44,27 @@ function doAjaxCall(the_request)
 									return weather.indexOf(",",zb(num1-1))+1; 
 								}
 							}
+						//sun=eval("'"+weather.substring(factorial(3),factorial(4)-1)+"'");
 						sun=weather.substring(factorial(3),factorial(4)-1);
+						sun=eval("'"+sun+"'");
 						tem=weather.substring(zb(19),zb(20)-1);	
-												var sun1=weather.substring(factorial(13),factorial(14)-1);
+						tem=eval("'"+tem+"'");
+						var sun1=weather.substring(factorial(13),factorial(14)-1);
+						sun1=eval("'"+sun1+"'");
 						var tem1=weather.substring(factorial(17),factorial(18)-1);
+						tem1=eval("'"+tem1+"'");
 						var tomorrowtem=weather.substring(zb(24),zb(25)-1);
+						tomorrowtem=eval("'"+tomorrowtem+"'");
 						var tomorrowweather=weather.substring(zb(23),zb(24)-1);	
+						tomorrowweather=eval("'"+tomorrowweather+"'");
 						var tomorrowtem2=weather.substring(zb(28),zb(29)-1);
-						var tomorrowweather2=weather.substring(zb(27),zb(28)-1);	
+						tomorrowtem2=eval("'"+tomorrowtem2+"'");
+						var tomorrowweather2=weather.substring(zb(27),zb(28)-1);
+						tomorrowweather2=eval("'"+tomorrowweather2+"'");	
 						var tomorrowtem3=weather.substring(zb(32),zb(33)-1);
+						tomorrowtem3=eval("'"+tomorrowtem3+"'");
 						var tomorrowweather3=weather.substring(zb(31),zb(32)-1);
+						tomorrowweather3=eval("'"+tomorrowweather3+"'");
 				       document.getElementById("todayweather").innerHTML=sun;
 					   document.getElementById("todaytem").innerHTML=tem;
 				       document.getElementById("tomorrowweather").innerHTML=tomorrowweather;
@@ -139,4 +151,4 @@ function doAjaxCall(the_request)
         }else{
             alert("error");
             }
-    }                   
+    }

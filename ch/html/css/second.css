@@ -70,9 +70,9 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,p{
 	height:auto;
 }
 .fchxq_main_box {
-margin: 0 auto;
-width: 1024px;
-height: 1090px;
+	margin: 0 auto;
+	width: 1024px;
+	height: 1090px;
 }
 .lr_main_box{
 	margin:0 auto;
@@ -195,10 +195,10 @@ height: 1090px;
 	height:29px;
 }
 #right_tittle_fchxq {
-background: url("../images/tittle_fchxq.gif");
-background-repeat: no-repeat;
-width: 161px;
-height: 29px;
+	background: url("../images/tittle_fchxq.gif");
+	background-repeat: no-repeat;
+	width: 161px;
+	height: 29px;
 }
 #right_tittle_vis{
 	background: url("../images/tittle_vis.gif");
@@ -836,25 +836,6 @@ line-height: 44px;
 .xiangxi a:hover{
 	color: #d43239;
 	text-decoration:none;}
-/*.namebox {
-float: left;
-width: 660px;
-height: 20px;
-overflow: hidden;
-font-size: 14px;
-line-height: 16px;
-padding-top: 15px;
-padding-bottom: 8px;
-padding-left:20px;
-margin-left: 50px;
-position:relative;
-z-index:-1;
-border-top: 1px solid #F2F2F2;
-}
-#namebox{
-	background-color:#F7F7F7;
-	}*/
-
 
 .cm_onerow {
 width: 100%;
@@ -862,41 +843,19 @@ height: 16px;
 padding-bottom: 12px;
 position: relative;
 }
-/*.link{
-	height:48px;}
-.link a {
-color:#AA3A3F;
-top: 12px;
-font-size: 10px;
-position: relative;
-right: 40px !important;
-text-decoration: underline;
-}
-.link a:hover{
-	text-decoration:none;
-	color:#d43239;}
-.namebox font {
-	color:#000;
-text-align: right;
-position: absolute;
-right: 50px!important;
-right: 180px;
-font-size: 14px;
-}*/
+
 #index li{
 	font-family: "微软雅黑","宋体";
-font-size: 16px;
-float: left;
-display: block;
-width: 66px;
-height: 33px;
-padding-top: 10px;
-position: relative;
-text-align: center;
-font-weight: bold;
+	font-size: 16px;
+	float: left;
+	display: block;
+	width: 66px;
+	height: 33px;
+	/*padding-top: 10px;*/
+	position: relative;
+	text-align: center;
+	font-weight: bold;
 }
-
-
 
 .tra{
 	padding-top:5px;
@@ -945,10 +904,7 @@ pre{
 	float: left;
     margin: 9px 3px 0 0;
 	width:10px;
-	height:10px;}
-	
-	
-	
+	height:10px;}	
 	
 /*	
 	天气添加css*/
@@ -1060,7 +1016,7 @@ pre{
 			height:67px;
 			float:left;
 			background-color:#34CEFF;
-			border-right:1px solid #66E1E2;           /*#29CDCF*/
+			border-right:1px solid #66E1E2;
 		}
 		#tomorrowbox3{
 			padding-top:2px;
@@ -1212,7 +1168,7 @@ pre{
 #cal #top select{font-size:12px}
 #cal #top input{padding:0}
 #cal ul#wk{margin:0;padding:0;height:34px}
-#cal ul#wk li{float:left;width:51px;text-align:center;line-height:25px;list-style:none}
+#cal ul#wk li{font-weight:normal;float:left;width:51px;text-align:center;line-height:25px;list-style:none}
 #cal ul#wk li b{font-weight:normal;color:#c60b02}
 #cal #cm{clear:left;border-top:1px solid #ddd;position:relative}
 #cal #cm .cell{position:absolute;width:36px;height:36px;text-align:center;margin:0 0 0 15px}
@@ -1250,14 +1206,3 @@ pre{
 	width: 552px;
 	*+width:535px;
 }
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			

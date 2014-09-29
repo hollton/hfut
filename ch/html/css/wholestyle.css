@@ -1,484 +1,934 @@
-﻿*{ margin:0; padding:0;}
-
-body{
-	font-family:"微软雅黑","宋体",sans-serif;
-	font-size: 12px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	line-height: 22px;
-	color:#000;
-	background-color:#fff;
-	position:relative;
-	overflow-y:scroll;
-	*+overflow-y:hidden;}
-
-#bigcontainer{
-
-	width:100%;
-	height:100%;
-	position:relative;
-	overflow:hidden;}
-
-/*===========================head=============================hd*/
-
-#head{
-
-	background:url(../images/hfut_02.gif) repeat-x 0 0;
-
-	width:100%;
-
-	height:120px;
-
-	margin:0 auto;
-
-	}
-
-	.top{margin: 0 auto;
-
-    position: relative;
-
-    width: 1002px;}
-
-.head_img{
-
-	width:1024px;
-
-	height:120px;
-
-	position:absolute;
-
-	top:0;
-
-	left:0px;
-
-	}
-
-/*===========================menu=============================*/
-
-#nav{ 
-
-    background:url(../images/hfut_07.gif) no-repeat 0 0px;
-
-	margin:0 auto;
-
-	height:50px;
-
-	width:1024px;
-
-	position:relative;
-
-	z-index:99;
-
-	}
-
-	#ulnav{ 
-
-	position:absolute;	
-
-	width:705px;
-
-	height:40px;
-
-	margin-left:22px;
-
-	}
-
-	#nav li{ 
-
-	font-family:"微软雅黑","宋体";
-
-	font-size:16px;
-
-	float:left;
-
-	display:block;
-
-	width:90px;
-
-	height:33px;
-
-	padding-top:10px;
-
-	position:relative;
-
-	text-align:center;
-
-	font-weight:bold;
-
-	}
-
-
-    #ulnav li ul{display:none;/color:#fff;position:absolute;left:-18px;top:41px;width:120px; z-index:10000; letter-spacing:2px;}
-	#ulnav li ul li{ font-size:12px;height:26px;line-height:25px;background:#183E50;width:120px;padding:0;margin:0;text-align:center; }
-
-    #ulnav li ul li a,#ulnav li ul li a:visited{display:block;zoom:1; color:#FFF; text-decoration:none;font-size:12px; font-weight:normal; border-bottom:1px dotted #2A6B8C;/*245C78*/}
-	
-    #ulnav li ul li a:hover{background:#3996CD ; color:#FFF; border-bottom: none;}
-	
-	#ulnav li ul li ul{ left:120px; top:0;}
-
-	.addnavli{ color:#333;}
-
-	.zero,.zero:visited{ background:url(../images/index.jpg) no-repeat 0px 0;*+background-position:-10px 0; width:96px; height:39px; display:block; margin-top:-8px;}
-	.zero:hover{ background:url(../images/indexy.jpg) no-repeat 0px 0; *+background-position:-10px 0;width:96px; height:39px; display:block; margin-top:-8px;}
-
-	.aone,.aone:visited{ background:url(../images/hfut_06.gif) no-repeat -18px 0; width:96px; height:39px; display:block; margin-top:-8px;}
-	.aone:hover{ background:url(../images/hfut_08.gif) no-repeat -18px 0; width:96px; height:39px; display:block; margin-top:-8px;}
-
-	.atwo,.atwo:visited{ background:url(../images/hfut_06.gif) no-repeat -115px 0 ; width:96px; height:39px; display:block; margin-top:-8px;}
-	.atwo:hover{ background:url(../images/hfut_08.gif) no-repeat -115px 0;; width:96px; height:39px; display:block; margin-top:-8px;}
-
-	.athree,.athree:visited{ background:url(../images/hfut_06.gif) no-repeat -210px 0 ; width:96px; height:39px; display:block; margin-top:-8px;}
-
-	.athree:hover{ background:url(../images/hfut_08.gif) no-repeat -210px 0;; width:96px; height:39px; display:block; margin-top:-8px;}
-
-	.afour,.afour:visited{ background:url(../images/hfut_06.gif) no-repeat -306px 0 ; width:96px; height:39px; display:block; margin-top:-8px;}
-
-	.afour:hover{ background:url(../images/hfut_08.gif) no-repeat -306px 0;; width:96px; height:39px; display:block; margin-top:-8px;}
-
-	.afive,.afive:visited{ background:url(../images/hfut_06.gif) no-repeat -402px 0 ; width:96px; height:39px; display:block; margin-top:-8px;}
-
-	.afive:hover{ background:url(../images/hfut_08.gif) no-repeat -402px 0;; width:96px; height:39px; display:block; margin-top:-8px;}
-
-	.asix,.asix:visited{ background:url(../images/hfut_06.gif) no-repeat -490px 0 ; width:90px; height:39px; display:block; margin-top:-10px;}
-
-	.asix:hover{ background:url(../images/hfut_08.gif) no-repeat -490px 0;; width:90px; height:39px; display:block; margin-top:-10px;}
-
-	.aseven,.aseven:visited{ background:url(../images/hfut_06.gif) no-repeat -573px 0 ; width:96px; height:39px; display:block; margin-top:-10px;}
-
-	.aseven:hover{ background:url(../images/hfut_08.gif) no-repeat -573px 0;; width:96px; height:39px; display:block; margin-top:-10px;}
-	.akxyj,.akxyj:visited{background:url(../images/nav_kxyj.gif) no-repeat 0px 0 ; width:90px; height:39px; display:block; margin-top:-10px;}
-	.akxyj:hover{background:url(../images/hnav_kxyj.gif) no-repeat 0px 0 ; width:90px; height:39px; display:block; margin-top:-10px;}
-	.azsjy,.azsjy:visited{background:url(../images/nav_zsjy.gif) no-repeat 0px 0 ; width:90px; height:39px; display:block; margin-top:-10px;
-	padding-left:2px}
-	.azsjy:hover{background:url(../images/hnav_zsjy.gif) no-repeat 0px 0 ; width:90px; height:39px; display:block; margin-top:-10px;}
-
-/*改变记录*/
-#showtime{ font-size:13px; color:#FFF; width: auto; height:18px; float:right; padding-top:12px; margin-right:0px;}	
-
-#weather{ font-size:13px; color:#FFF;  height:18px; float:right; padding-top:12px;}
-#weathert{ font-size:13px; color:#FFF;  height:18px; float:right; padding-top:12px;
-padding-right:8px;}	
-
-
-/*===========================content=============================*/
-
-#bigbox{ margin:auto; background:#FFF; height:710px; width:1024px;}
-
-
-
-#middle{ float:left; height:705px; width:1022px; border:1px #CCC solid;}
-
-
-
-#mid_left{ width:865px; float:left;}
-
-/*===========================图标=============================*/
-
-#mid_right{ width:126px; height: auto; margin-left:16px; float:left; margin-top:6px;}
-
-#mainlinksA, #mainlinksB, #mainlinksC, #mainlinksD, #mainlinksE,#mainlinksF,#mainlinksG,#mainlinksH ,#mainlinksI,#mainlinksJ,#mainlinksK {
-
-    float: left;
-
-    height: 51px;
-
-    overflow: hidden;
-
-	margin-top:5px;
-
-    width: 126px;
-
-}
-
-#mainlinksA a, #mainlinksB a, #mainlinksC a, #mainlinksD a, #mainlinksE a,#mainlinksF a,#mainlinksG a,#mainlinksH a,#mainlinksI a ,#mainlinksJ a,#mainlinksK a{
-
-    display: block;
-
-    float: left;
-
-    height: 52px;
-
-    line-height: 200px;
-
-    width: 126px;
-    position:relative; z-index:1;
-}
-
-#mainlinksA a{ background:url(../images/web_06.jpg) no-repeat 0px 0px;}
-#mainlinksA a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -1px;}
-
-#mainlinksB a{ background:url(../images/web_06.jpg) no-repeat 0px -54px;}
-#mainlinksB a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -55px;}
-
-#mainlinksC a{ background:url(../images/web_06.jpg) no-repeat 0px -108px;}
-#mainlinksC a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -109px;}
-
-#mainlinksD a{ background:url(../images/web_06.jpg) no-repeat 0px -162px;}
-#mainlinksD a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -163px;}
-
-#mainlinksE a{ background:url(../images/web_06.jpg) no-repeat 0px -216px;}
-#mainlinksE a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -217px;}
-
-#mainlinksF a{ background:url(../images/web_06.jpg) no-repeat 0px -270px;}
-#mainlinksF a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -271px;}
-
-#mainlinksG a{ background:url(../images/web_06.jpg) no-repeat 0px -322px;}
-#mainlinksG a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -323px;}
-
-#mainlinksH a{ background:url(../images/web_06.jpg) no-repeat 0px -376px;}
-#mainlinksH a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -377px;}
-
-#mainlinksI a{ background:url(../images/web_06.jpg) no-repeat 0px -429px;}
-#mainlinksI a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -430px;}
-
-#mainlinksJ a{ background:url(../images/web_06.jpg) no-repeat 0px -481px;}
-#mainlinksJ a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -482px;}
-
-#mainlinksK a{ background:url(../images/web_06.jpg) no-repeat 0px -532px;}
-#mainlinksK a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -533px;}
-
-
-
-
-
-/*===========================轮换JS图片样式=============================*/
-
-#bannercontainer {
-
-	height: 250px;
-
-	width:865px;
-
-	background-repeat: no-repeat;
-
-	background-position: center;
-
-	background-image: url(http://map.hfut.edu.cn/images/photos/hfutphoto.min.jpg);
-
-	background-color: #fff;
-
-	overflow:hidden;
-
-	z-index:3;
-
-	position:relative;
-
-}
-
-
-
-/*===========================news=============================*/
-
-#news{ width:865px;float:left; margin-top:15px;}
-
-/*===========================fwpt============================*/
-
-#fwpt{ width:130px; height:240px; float:left; }
-
-.fwpt-top{
-	width:76px; height:25px; position:relative; z-index:1;
-	float:left; font-size:15px; font-family:"微软雅黑";
-	background:url(../images/hfut_ico.jpg) no-repeat -6px -159px;
-	 border-bottom:1px solid #1A3F51; margin-left:25px;}
-.bgtext{
-    color: #183E51;
-    font-size: 18px;
-    font-weight: bold;
-    margin-left:25px; *+margin:-28px 0 0 -105px;
-    position: absolute;}
-
-#fwpt ul{ width:130px; height:200px; list-style-type:none; float:left; margin-top:9px;}
-
-#fwpt ul li{ width:130px; height:20px; margin:3px;/* padding:3px 2px;*/ text-align:center; float:right;}
-
-#fwpt ul li a{ color:#333; font-size:13px;  color:#000;}
-
-/*===========================xyxw=============================*/
-
-#xyxw{ width:388px; height:240px; float:left; margin-left:15px;}
-
-.xyxw_top{
-	background:url(../images/hfut_ico.jpg) no-repeat -6px -129px;
-	width:388px; height:25px; color:#193F51;
-	font-family:"微软雅黑"; font-size:16px;
-	margin-bottom:8px;border-bottom: 1px solid #193F51; text-indent:5px;
-	position:relative; z-index:1;}
-.bgtext1{margin:-35px 0 0 0;}
-
-#xyxw ul{ list-style:none;}
-
-#xyxw ul li{ width:385px; height:24px; clear:both;}
-
-#xyxw ul li a{ font-size:13px; display:block;/* width:320px; */height:24px; line-height:24px; color:#000; padding-top:3px; overflow:hidden; float:left;}
-
-#xyxw ul li a:hover{ text-decoration:underline; color:#000;}
-
-#xyxw span a{ float:right; font-size:12px; color:#333; padding-right:2px; padding-top:5px;}
-
-.newstime{  display:block; float:right; color:#960;padding-top:4px;}
-
-
-
-#news a{ text-decoration:none;}
-#news a:hover{ text-decoration:underline; }
-#adpica a,#adpica a:hover{ color: #FFFFFF;}
-
-/*===========================新加bottomlinks=============================*/
-#bottomlinks{
-	clear:both;
-	text-align:right;
-	font-family:"微软雅黑"; 
-	font-size:12px;
-	margin: 10px 12px 0 0;}
-#bottomlinks a:link,#bottomlinks a:visited{
-	color:#222;
-	text-decoration:none;
-	margin-left:10px;}
-
-#bottomlinks a:hover{
-	text-decoration:underline;}
-
-/*===========================jdxw=============================*/
-
-#jdxw{ width:330px; height:240px; float:left;  }
-
-.jdxw_top{ text-indent:0.5em; width:330px; height:22px;
-	float:left; background:#183e50; color:#FFF;
-	 font-family:"微软雅黑"; font-size:12px;}
-
-#jdxw img{ width:330px; height:200px; float:left; border:none;}
-
-#jdxw h4 a{ font-family:"微软雅黑"; width:330px; height:25px; line-height:28px; float:left; overflow:hidden; padding:5px 0; color:#000;}
-
-#jdxw span{ text-indent:2em; font-size:13px; color:#666; line-height:17px; float:left; display:block; width:210px; height:68px; overflow:hidden;}
-
-/*===========================tzgg=============================*/
-/*====change=====*/
-#tzgg,#zbcg,#bgjz{ width:263px; height: auto; float:left; margin-left:25px; margin-top:5px;}
-
-.tzgg_top,.zbcg_top,.bgjz_top{height:25px; color:#B82F2E;font-family:"微软雅黑"; font-size:16px; border-bottom:1px solid #aa3a3f; text-indent:5px; position: relative; z-index:1;}
-.tzgg_top{
-	background:url(../images/hfut_ico.jpg) no-repeat -6px -68px;}
-.bgtext2{margin:-26px 0 0 0; color:#B82F2E;}
-
-.zbcg_top{
-	background:url(../images/hfut_ico.jpg) no-repeat -6px -37px;}
-.bgjz_top{
-	background:url(../images/hfut_ico.jpg) no-repeat -6px -5px;}
-
-#tzgg ul,#zbcg ul,#bgjz ul{ list-style:none; margin-top:10px;}
-
-#tzgg li,#zbcg li,#bgjz li { height: 27px;height:24px!important;width: 263px;}
-
-#tzgg ul li a,#zbcg ul li a,#bgjz ul li a{ font-size:13px; display:block;height:24px;color:#000; padding-top:3px; overflow:hidden; float:left;padding-right:0; margin:0; width:221px;}
-
-.text{ float:left;}
-#tzgg a,#zbcg  a,#bgjz a{ float:right; font-size:12px; color:#333; padding-right:2px; padding-top:4px; }
-
-.newsdate{ display:block; float:right; color:#960;padding-top:5px;}
-
-#special_1{ width:700px; height:50px; float:left; margin-top:8px; text-align:right; margin-left:10px;}
-
-#special_2{ width:700px; height:20px; float:left; margin-top:5px; text-align:right; margin-left:10px;}
-
-#special_2 a{ height:20px; float:left; margin-top:3px; color:#000; font-size:12px; text-decoration:none; padding:0 6px; color:#333;}
-
-#special_2 a:hover{ text-decoration:underline;}
-
-
-
-.dotted{ width:860px; float:left; height:2px; border-top:1px dotted #CCC; margin:8px;}
-
-#copyright {
-
-	height: 32px;
-
-	text-align: center;
-
-	padding-top: 10px;
-
-	width:1024px;
-
-	margin:5px auto;
-
-	background:url(../images/hfut_07.gif) no-repeat #183E50;
-	clear:both;
-
-}
-
-#copyright, #copyright a {
-
-	font-size: 12px;
-
-	color:#FFF;
-
-	text-decoration:none;
-
-}
-
-#copyright a:hover {
-
-	z-index:auto;
-
-	text-decoration:underline;
-
-}
-.rddh{
-	clear:both;
-	float:left;
-	width:860px;
-	height:22px;
-	
-}
-.rddh em {
-display: inline;
-float: left;
-margin-right: 10px;
-font-size: 14px;
-font-style: italic;
-color:#b82f2e;
-}
-
-.rddh ol {
-	float: left;margin-left:20px;list-style: none;}
-.rddh li{
-	margin:0 6px;
-	float:left;
-}
-.rddh a{
-	color:#000;
-	font-family:"微软雅黑";
-	font-size:13px;
-}
-.dotted1{ width:860px; float:left; height:2px; border-top:1px dotted #CCC;
-margin-top:0px;
-margin-bottom:8px;
-margin-left:8px;
-margin-right:8px;}
-.rddh_image{
-	margin-left:27px;
-	float:left;
-	width:80px;
-	height:22px;
-	background:url(../images/rddh_image.png) no-repeat -4px -5px;
-}
-.rddh_imager{
-	margin-left:25px;margin-top: 1px;
-	float:left;
-	width:86px;
-	height:22px;
-	background:url(../images/hfut_ico.jpg) no-repeat -6px -100px;
-}
-
-.bgtext3{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:16px;*+margin-top:-490px;padding:5px; width:76px; text-align:center;}
-.bgtext4{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:70px;*+margin-top:-436px;padding:5px; width:76px; text-align:center;}
-.bgtext5{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:126px;*+margin-top:-380px;padding:5px; width:76px; text-align:center;}
-.bgtext6{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:182px;*+margin-top:-324px;padding:5px; width:76px; text-align:center;}
-.bgtext7{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:238px;*+margin-top:-268px;padding:5px; width:76px; text-align:center;}
-.bgtext8{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:294px;*+margin-top:-212px;padding:5px; width:76px; text-align:center;}
-.bgtext9{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:350px;*+margin-top:-156px;padding:5px; width:76px; text-align:center;}
-.bgtext10{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:406px;*+margin-top:-100px;padding:5px; width:76px; text-align:center;}
-.bgtext11{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:462px;*+margin-top:-44px;padding:5px; width:76px; text-align:center;}
-.bgtext12{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:518px;*+margin-top:12px;padding:5px; width:76px; text-align:center;}
+﻿*{ margin:0; padding:0;}
+
+body{
+
+	font-family:"微软雅黑","宋体",sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-variant: normal;
+
+	font-weight: normal;
+
+	line-height: 22px;
+
+	color:#000;
+
+	background-color:#fff;
+
+	position:relative;
+
+	overflow-y:scroll;
+
+	*+overflow-y:hidden;}
+
+
+
+#bigcontainer{
+	width:100%;
+
+	height:100%;
+
+	position:relative;}
+
+/*===========================head=============================hd*/
+
+
+
+#head{
+
+
+
+	background:url(../images/hfut_02.gif) repeat-x 0 0;
+
+	width:100%;
+
+
+
+	height:120px;
+
+
+
+	margin:0 auto;
+
+
+
+	}
+
+
+
+	.top{margin: 0 auto;
+
+
+
+    position: relative;
+
+
+
+    width: 1002px;}
+
+
+
+.head_img{
+
+
+
+	width:1024px;
+
+
+
+	height:120px;
+
+
+
+	position:absolute;
+
+
+
+	top:0;
+
+
+
+	left:0px;
+
+
+
+	}
+
+
+
+/*===========================menu=============================*/
+
+
+
+#nav{ 
+
+
+
+    background:url(../images/hfut_07.gif) no-repeat 0 0px;
+
+
+
+	margin:0 auto;
+
+
+
+	height:50px;
+
+
+
+	width:1024px;
+
+
+
+	position:relative;
+
+
+
+	z-index:99;
+
+
+
+	}
+
+
+
+	#ulnav{ 
+
+
+
+	position:absolute;	
+
+
+
+	width:705px;
+
+
+
+	height:40px;
+
+
+
+	margin-left:22px;
+
+
+
+	}
+
+
+
+	#nav li{ 
+
+
+
+	font-family:"微软雅黑","宋体";
+
+
+
+	font-size:16px;
+
+
+
+	float:left;
+
+
+
+	display:block;
+
+
+
+	width:90px;
+
+
+
+	height:42px;
+
+
+
+	/*padding-top:10px;*/
+
+
+
+	position:relative;
+
+
+
+	text-align:center;
+
+
+
+	font-weight:bold;
+
+
+
+	}
+
+
+
+
+
+    #ulnav li ul{display:none;color:#fff;position:absolute;left:-20px;top:41px;width:120px; z-index:10000; letter-spacing:2px;}
+
+	#ulnav li ul li{ font-size:12px;height:26px;line-height:25px;background:#183E50;width:120px;padding:0;margin:0;text-align:center; }
+
+
+
+    #ulnav li ul li a,#ulnav li ul li a:visited{display:block;zoom:1; color:#FFF; text-decoration:none;font-size:12px; font-weight:normal; border-bottom:1px dotted #2A6B8C;/*245C78*/}
+
+	
+
+    #ulnav li ul li a:hover{background:#3996CD ; color:#FFF; border-bottom: none;}
+
+	
+
+	#ulnav li ul li ul{ left:120px; top:0;}
+
+
+
+	.addnavli{ color:#333;}
+
+
+	.zero,.zero:visited{ background:url(../images/index.jpg) no-repeat 0px 0;*+background-position:-10px 0; height:40px; display:block; margin-top:2px;/* margin-top:-8px; width:96px;*/}
+
+	.zero:hover{ background:url(../images/indexy.jpg) no-repeat 0px 0; *+background-position:-10px 0;height:40px; display:block; margin-top:2px;/* margin-top:-8px;width:96px; */}
+
+
+	.aone,.aone:visited{ background:url(../images/hfut_06.gif) no-repeat -18px 0; height:40px; display:block; margin-top:2px;/* margin-top:-8px; width:96px;*/}
+
+	.aone:hover{ background:url(../images/hfut_08.gif) no-repeat -18px 0; height:40px; display:block; margin-top:2px;/* margin-top:-8px; width:96px;*/}
+
+
+
+	.atwo,.atwo:visited{ background:url(../images/hfut_06.gif) no-repeat -115px 0 ; height:40px; display:block; margin-top:2px;/* margin-top:-8px; width:96px;*/}
+
+	.atwo:hover{ background:url(../images/hfut_08.gif) no-repeat -115px 0; height:40px; display:block; margin-top:2px;/* margin-top:-8px; width:96px;*/}
+
+
+
+	.athree,.athree:visited{ background:url(../images/hfut_06.gif) no-repeat -210px 0 ; height:40px; display:block; margin-top:2px;/* width:96px; margin-top:-8px;*/}
+
+
+
+	.athree:hover{ background:url(../images/hfut_08.gif) no-repeat -210px 0; height:40px; display:block; margin-top:2px;/* margin-top:-8px;; width:96px;*/}
+
+
+
+	.afour,.afour:visited{ background:url(../images/hfut_06.gif) no-repeat -306px 0 ;  height:40px; display:block; margin-top:2px;/* margin-top:-8px;width:96px;*/}
+
+
+
+	.afour:hover{ background:url(../images/hfut_08.gif) no-repeat -306px 0; height:40px; display:block; margin-top:2px;/* margin-top:-8px;; width:96px;*/}
+
+
+
+	.afive,.afive:visited{ background:url(../images/hfut_06.gif) no-repeat -402px 0 ; height:40px; display:block; margin-top:2px;/* margin-top:-8px; width:96px;*/}
+
+
+
+	.afive:hover{ background:url(../images/hfut_08.gif) no-repeat -402px 0; height:40px; display:block; margin-top:2px;/* margin-top:-8px;; width:96px;*/}
+
+
+
+	.akxyj,.akxyj:visited{background:url(../images/nav_kxyj.gif) no-repeat 0px 0 ; height:42px; display:block; /*margin-top:-10px; width:90px;*/}
+
+	.akxyj:hover{background:url(../images/hnav_kxyj.gif) no-repeat 0px 0 ;height:42px; display:block;/* margin-top:-10px; width:90px; */}
+
+	.azsjy,.azsjy:visited{background:url(../images/nav_zsjy.gif) no-repeat 0px 0 ;height:42px; display:block;/*margin-top:-10px; width:90px;padding-left:2px ; */ }
+
+	.azsjy:hover{background:url(../images/hnav_zsjy.gif) no-repeat 0px 0 ; height:42px; display:block;/* margin-top:-10px; width:90px;*/}
+
+
+
+/*改变记录*/
+
+#showtime{ font-size:13px; color:#FFF; width: auto; height:18px; float:right; padding-top:12px; margin-right:0px;}	
+
+
+
+#weather{ font-size:13px; color:#FFF;  height:18px; float:right; padding-top:12px;}
+
+#weathert{ font-size:13px; color:#FFF;  height:18px; float:right; padding-top:12px;
+
+padding-right:8px;}	
+
+
+
+
+
+/*===========================content=============================*/
+
+
+
+#bigbox{ margin:auto; background:#FFF; height:710px; width:1024px;}
+
+
+
+
+
+
+
+#middle{ float:left; height:705px; width:1022px; border:1px #CCC solid;}
+
+
+
+
+
+
+
+#mid_left{ width:865px; float:left;}
+
+
+
+/*===========================图标=============================*/
+
+
+
+#mid_right{ width:126px; height: auto; margin-left:16px; float:left; margin-top:6px;}
+
+
+
+#mainlinksA, #mainlinksB, #mainlinksC, #mainlinksD, #mainlinksE,#mainlinksF,#mainlinksG,#mainlinksH ,#mainlinksI,#mainlinksJ,#mainlinksK {
+
+
+
+    float: left;
+
+
+
+    height: 51px;
+
+
+
+    overflow: hidden;
+
+
+
+	margin-top:5px;
+
+
+
+    width: 126px;
+
+
+
+}
+
+
+
+#mainlinksA a, #mainlinksB a, #mainlinksC a, #mainlinksD a, #mainlinksE a,#mainlinksF a,#mainlinksG a,#mainlinksH a,#mainlinksI a ,#mainlinksJ a,#mainlinksK a{
+
+
+
+    display: block;
+
+
+
+    float: left;
+
+
+
+    height: 52px;
+
+
+
+    line-height: 200px;
+
+
+
+    width: 126px;
+
+    position:relative; z-index:1;
+
+}
+
+
+
+#mainlinksA a{ background:url(../images/web_06.jpg) no-repeat 0px 0px;}
+
+#mainlinksA a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -1px;}
+
+
+
+#mainlinksB a{ background:url(../images/web_06.jpg) no-repeat 0px -54px;}
+
+#mainlinksB a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -55px;}
+
+
+
+#mainlinksC a{ background:url(../images/web_06.jpg) no-repeat 0px -108px;}
+
+#mainlinksC a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -109px;}
+
+
+
+#mainlinksD a{ background:url(../images/web_06.jpg) no-repeat 0px -162px;}
+
+#mainlinksD a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -163px;}
+
+
+
+#mainlinksE a{ background:url(../images/web_06.jpg) no-repeat 0px -216px;}
+
+#mainlinksE a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -217px;}
+
+
+
+#mainlinksF a{ background:url(../images/web_06.jpg) no-repeat 0px -270px;}
+
+#mainlinksF a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -271px;}
+
+
+
+#mainlinksG a{ background:url(../images/web_06.jpg) no-repeat 0px -322px;}
+
+#mainlinksG a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -323px;}
+
+
+
+#mainlinksH a{ background:url(../images/web_06.jpg) no-repeat 0px -376px;}
+
+#mainlinksH a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -377px;}
+
+
+
+#mainlinksI a{ background:url(../images/web_06.jpg) no-repeat 0px -429px;}
+
+#mainlinksI a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -430px;}
+
+
+
+#mainlinksJ a{ background:url(../images/web_06.jpg) no-repeat 0px -481px;}
+
+#mainlinksJ a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -482px;}
+
+
+
+#mainlinksK a{ background:url(../images/web_06.jpg) no-repeat 0px -532px;}
+
+#mainlinksK a:hover{ background:url(../images/web_06_1.jpg) no-repeat -1px -533px;}
+
+
+
+
+
+
+
+
+
+
+
+/*===========================轮换JS图片样式=============================*/
+
+
+
+#bannercontainer {
+
+
+
+	height: 250px;
+
+
+
+	width:865px;
+
+
+
+	background-repeat: no-repeat;
+
+
+
+	background-position: center;
+
+
+
+	background-image: url(http://map.hfut.edu.cn/images/photos/hfutphoto10.jpg);
+
+
+
+	background-color: #fff;
+
+
+
+	overflow:hidden;
+
+
+
+	z-index:3;
+
+
+
+	position:relative;
+
+
+
+}
+
+
+/*===========================news=============================*/
+
+
+
+#news{ width:865px;float:left; margin-top:15px;}
+
+
+
+/*===========================fwpt============================*/
+
+
+
+#fwpt{ width:130px; height:240px; float:left; }
+
+
+
+.fwpt-top{
+
+	width:76px; height:25px; position:relative; z-index:1;
+
+	float:left; font-size:15px; font-family:"微软雅黑";
+
+	background:url(../images/hfut_ico.jpg) no-repeat -6px -159px;
+
+	 border-bottom:1px solid #1A3F51; margin-left:25px;}
+
+.bgtext{
+
+    color: #183E51;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin-left:25px; *+margin:-28px 0 0 -105px;
+
+    position: absolute;
+	}
+
+
+
+#fwpt ul{ width:130px; height:200px; list-style-type:none; float:left; margin-top:9px;}
+
+
+
+#fwpt ul li{ width:130px; height:20px; margin:3px;/* padding:3px 2px;*/ text-align:center; float:right;}
+
+
+
+#fwpt ul li a{ color:#333; font-size:13px;  color:#000;}
+
+
+
+/*===========================xyxw=============================*/
+
+
+
+#xyxw{ width:388px; height:240px; float:left; margin-left:15px;}
+
+
+
+.xyxw_top{
+
+	background:url(../images/hfut_ico.jpg) no-repeat -6px -129px;
+
+	width:388px; height:25px; color:#193F51;
+
+	font-family:"微软雅黑"; font-size:16px;
+
+	margin-bottom:8px;border-bottom: 1px solid #193F51; text-indent:5px;
+
+	position:relative; z-index:1;}
+
+.bgtext1{margin:-35px 0 0 0;}
+
+
+
+#xyxw ul{ list-style:none;}
+
+
+
+#xyxw ul li{ width:385px; height:24px; clear:both;}
+
+
+
+#xyxw ul li a{ font-size:13px; display:block;height:24px; line-height:24px; color:#000; padding-top:3px; overflow:hidden; float:left;width: 260px;text-overflow: ellipsis;white-space: nowrap;}
+
+
+#xyxw ul li a:hover{ text-decoration:underline; color:#000;}
+
+
+
+#xyxw span a{ float:right; font-size:12px; color:#333; padding-right:2px; padding-top:5px;}
+
+
+
+.newstime{  display:block; float:right; color:#960;padding-top:4px;}
+
+
+
+
+
+
+
+#news a{ text-decoration:none;}
+
+#news a:hover{ text-decoration:underline; }
+
+#adpica a,#adpica a:hover{ color: #FFFFFF;}
+
+
+
+/*===========================新加bottomlinks=============================*/
+
+#bottomlinks{
+
+	clear:both;
+
+	text-align:right;
+
+	font-family:"微软雅黑"; 
+
+	font-size:12px;
+
+	margin: 10px 12px 0 0;}
+
+#bottomlinks a:link,#bottomlinks a:visited{
+
+	color:#222;
+
+	text-decoration:none;
+
+	margin-left:10px;}
+
+
+
+#bottomlinks a:hover{
+
+	text-decoration:underline;}
+
+
+
+/*===========================jdxw=============================*/
+
+
+
+#jdxw{ width:330px; height:240px; float:left;  }
+
+
+
+.jdxw_top{ text-indent:0.5em; width:330px; height:22px;
+
+	float:left; background:#183e50; color:#FFF;
+
+	 font-family:"微软雅黑"; font-size:12px;}
+
+
+
+#jdxw img{ width:330px; height:200px; float:left; border:none;}
+
+
+
+#jdxw h4 a{ font-family:"微软雅黑"; width:330px; height:25px; line-height:28px; float:left; overflow:hidden; padding:5px 0; color:#000;}
+
+
+
+#jdxw span{ text-indent:2em; font-size:13px; color:#666; line-height:17px; float:left; display:block; width:210px; height:68px; overflow:hidden;}
+
+
+
+/*===========================tzgg=============================*/
+
+/*====change=====*/
+
+#tzgg,#zbcg,#bgjz{ width:263px; height: auto; float:left; margin-left:25px; margin-top:5px;}
+
+
+
+.tzgg_top,.zbcg_top,.bgjz_top{height:25px; color:#B82F2E;font-family:"微软雅黑"; font-size:16px; border-bottom:1px solid #aa3a3f; text-indent:5px; position: relative; z-index:1;}
+
+.tzgg_top{
+
+	background:url(../images/hfut_ico.jpg) no-repeat -6px -68px;}
+
+.bgtext2{margin:-26px 0 0 0; color:#B82F2E;}
+
+
+
+.zbcg_top{
+
+	background:url(../images/hfut_ico.jpg) no-repeat -6px -37px;}
+
+.bgjz_top{
+
+	background:url(../images/hfut_ico.jpg) no-repeat -6px -5px;}
+
+
+
+#tzgg ul,#zbcg ul,#bgjz ul{ list-style:none; margin-top:10px;}
+
+
+
+#tzgg li,#zbcg li,#bgjz li { height: 27px;height:24px!important;width: 263px;}
+
+
+
+#tzgg ul li a,#zbcg ul li a,#bgjz ul li a{ font-size:13px; display:block;height:24px;color:#000; padding-top:3px; overflow:hidden; float:left;padding-right:0; margin:0; width:221px;}
+
+
+
+.text{ float:left;}
+
+#tzgg a,#zbcg  a,#bgjz a{ float:right; font-size:12px; color:#333; padding-right:2px; padding-top:4px; }
+
+
+
+.newsdate{ display:block; float:right; color:#960;padding-top:5px;}
+
+
+
+#special_1{ width:700px; height:50px; float:left; margin-top:8px; text-align:right; margin-left:10px;}
+
+
+
+#special_2{ width:700px; height:20px; float:left; margin-top:5px; text-align:right; margin-left:10px;}
+
+
+
+#special_2 a{ height:20px; float:left; margin-top:3px; color:#000; font-size:12px; text-decoration:none; padding:0 6px; color:#333;}
+
+
+
+#special_2 a:hover{ text-decoration:underline;}
+
+
+
+
+
+
+
+.dotted{ width:860px; float:left; height:2px; border-top:1px dotted #CCC; margin:8px;}
+
+
+
+#copyright {
+
+
+
+	height: 32px;
+
+
+
+	text-align: center;
+
+
+
+	padding-top: 10px;
+
+
+
+	width:1024px;
+
+
+
+	margin:5px auto;
+
+
+
+	background:url(../images/hfut_07.gif) no-repeat #183E50;
+
+	clear:both;
+
+
+
+}
+
+
+
+#copyright, #copyright a {
+
+
+
+	font-size: 12px;
+
+
+
+	color:#FFF;
+
+
+
+	text-decoration:none;
+
+
+
+}
+
+
+
+#copyright a:hover {
+
+
+
+	z-index:auto;
+
+
+
+	text-decoration:underline;
+
+
+
+}
+
+.rddh{
+
+	clear:both;
+
+	float:left;
+
+	width:860px;
+
+	height:22px;
+
+	
+
+}
+
+.rddh em {
+
+display: inline;
+
+float: left;
+
+margin-right: 10px;
+
+font-size: 14px;
+
+font-style: italic;
+
+color:#b82f2e;
+
+}
+
+
+
+.rddh ol {
+
+	float: left;margin-left:20px;list-style: none;}
+
+.rddh li{
+
+	margin:0 6px;
+
+	float:left;
+
+}
+
+.rddh a{
+
+	color:#000;
+
+	font-family:"微软雅黑";
+
+	font-size:13px;
+
+}
+
+.dotted1{ width:860px; float:left; height:2px; border-top:1px dotted #CCC;
+
+margin-top:0px;
+
+margin-bottom:8px;
+
+margin-left:8px;
+
+margin-right:8px;}
+
+.rddh_image{
+
+	margin-left:27px;
+
+	float:left;
+
+	width:80px;
+
+	height:22px;
+
+	background:url(../images/rddh_image.png) no-repeat -4px -5px;
+
+}
+
+.rddh_imager{
+
+	margin-left:25px;margin-top: 1px;
+
+	float:left;
+
+	width:86px;
+
+	height:22px;
+
+	background:url(../images/hfut_ico.jpg) no-repeat -6px -100px;
+
+}
+
+
+
+.bgtext3{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:16px;*+margin-top:-490px;padding:5px; width:76px; text-align:center;}
+
+.bgtext4{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:70px;*+margin-top:-436px;padding:5px; width:76px; text-align:center;}
+
+.bgtext5{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:126px;*+margin-top:-380px;padding:5px; width:76px; text-align:center;}
+
+.bgtext6{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:182px;*+margin-top:-324px;padding:5px; width:76px; text-align:center;}
+
+.bgtext7{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:238px;*+margin-top:-268px;padding:5px; width:76px; text-align:center;}
+
+.bgtext8{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:294px;*+margin-top:-212px;padding:5px; width:76px; text-align:center;}
+
+.bgtext9{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:350px;*+margin-top:-156px;padding:5px; width:76px; text-align:center;}
+
+.bgtext10{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:406px;*+margin-top:-100px;padding:5px; width:76px; text-align:center;}
+
+.bgtext11{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:462px;*+margin-top:-44px;padding:5px; width:76px; text-align:center;}
+
+.bgtext12{border: 1px solid #B82F2E;color:#B82F2E;margin-left:16px;*+margin-left:-110px;margin-top:518px;*+margin-top:12px;padding:5px; width:76px; text-align:center;}
+
