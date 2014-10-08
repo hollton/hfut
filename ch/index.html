@@ -655,19 +655,41 @@
 
     </div>
 
-    
 
 <script type="text/javascript" src="html/js/jquery-1.6.2.min.js"></script>
 
-<!--大图及新闻图-->
-<script type="text/javascript" src="html/js/switch.js"></script>
+<!--导航下拉菜单-->
+<script type="text/javascript">
+function cjMenu(ulElementId,speed)
+{
+	$("#"+ulElementId).children("li:has(ul)").hover(function()
+	{
+		var ulnode=$(this);
+		timeoutid=setTimeout(function()
+		{
+			ulnode.children("ul").slideDown(speed);
+		},100);
+	},function()
+	{
+		clearTimeout(timeoutid);
+		$(this).children("ul").hide(300);
+	} );
+	/*
+	$("#"+ulElementId).find("li>ul>li>a").hover(function()
+	{
+		$(this).animate({paddingLeft:"+=10px"},speed);
+	},function()
+	{
+		$(this).animate({paddingLeft:"-=10px"},speed);
+	} );*/
+}
 
-<!--提取后台提供的天气数据-->
-<script type="text/javascript" src="html/js/tianqi.js"></script>
-
-<script type="text/javascript" src="html/js/jquery.nivo.slider.pack.js "></script>
+cjMenu("ulnav",100);
+cjMenu("san",100);
+</script>
 
 <!--大图-->
+<script type="text/javascript" src="html/js/jquery.nivo.slider.pack.js "></script>
 <script type="text/javascript">
 
 	var total=$('#slider img').length;
@@ -682,23 +704,6 @@
 
 </script>
 
-
-
-<script type="text/javascript">//<![CDATA[
-
-function cjMenu(ulElementId,speed){$("#"+ulElementId).children("li:has(ul)").hover(function(){var ulnode=$(this);timeoutid=setTimeout(function(){ulnode.children("ul").slideDown(speed);},100);},function(){clearTimeout(timeoutid);$(this).children("ul").hide(300);});$("#"+ulElementId).find("li>ul>li>a").hover(function(){$(this).animate({paddingLeft:"+=0px"},speed);},function(){$(this).animate({paddingLeft:"-=0px"},speed);});}
-
-//]]></script>
-
-
-
-<script type="text/javascript">
-
-	$(function(){cjMenu("ulnav",100);cjMenu("san",100);});
-
-</script>
-
-
 <!--判断IE6-->
 <script type="text/javascript">
 
@@ -710,13 +715,17 @@ else;
 
 </script>
 
+<!--触摸新闻图-->
+<script type="text/javascript" src="html/js/switch.js"></script>
+
+<!--提取后台提供的天气数据-->
+<script type="text/javascript" src="html/js/tianqi.js"></script>
 
 <!--日历-->
 <script type="text/javascript" src="html/js/calendar.js"></script>
 
 <!--天气、时间-->
 <script type="text/javascript" src="html/js/weatime.js"></script>
-
 
 
 </body>
