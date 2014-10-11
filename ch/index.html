@@ -36,7 +36,16 @@
 
 <link href="html/css/switch.css" rel="stylesheet" type="text/css"/>
 
+<!--判断IE6-->
+<script type="text/javascript">
 
+var isIE6=!-[1,]&&!window.XMLHttpRequest;
+
+if(isIE6){window.location="html/ie6.html";}
+
+else;
+
+</script>
 
 </head>
 
@@ -656,6 +665,9 @@
     </div>
 
 
+<!--触摸新闻图-->
+<script type="text/javascript" src="html/js/switch.js"></script>
+
 <script type="text/javascript" src="html/js/jquery-1.6.2.min.js"></script>
 
 <!--导航下拉菜单-->
@@ -674,14 +686,6 @@ function cjMenu(ulElementId,speed)
 		clearTimeout(timeoutid);
 		$(this).children("ul").hide(300);
 	} );
-	/*
-	$("#"+ulElementId).find("li>ul>li>a").hover(function()
-	{
-		$(this).animate({paddingLeft:"+=10px"},speed);
-	},function()
-	{
-		$(this).animate({paddingLeft:"-=10px"},speed);
-	} );*/
 }
 
 cjMenu("ulnav",100);
@@ -704,29 +708,12 @@ cjMenu("san",100);
 
 </script>
 
-<!--判断IE6-->
-<script type="text/javascript">
-
-var isIE6=!-[1,]&&!window.XMLHttpRequest;
-
-if(isIE6){window.location="html/ie6.html";}
-
-else;
-
-</script>
-
-<!--触摸新闻图-->
-<script type="text/javascript" src="html/js/switch.js"></script>
-
 <!--提取后台提供的天气数据-->
 <script type="text/javascript" src="html/js/tianqi.js"></script>
-
-<!--日历-->
-<script type="text/javascript" src="html/js/calendar.js"></script>
-
 <!--天气、时间-->
 <script type="text/javascript" src="html/js/weatime.js"></script>
-
+<!--日历-->
+<script type="text/javascript" src="html/js/calendar.js"></script>
 
 </body>
 
