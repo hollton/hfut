@@ -106,13 +106,23 @@ a.nivo-nextNav {
 
 /*===========================小图轮换=============================*/
 .scroll{width:330px;height:200px; position:relative;overflow:hidden;}
+
 .mod_01{float:left;width:330px;}
+
 .mod_01 img{display:block;width:330px;height:200px;}
+
 .slide_01{height:200px;}
+
 .htitle{height: 30px;overflow: hidden;position: relative;text-indent: 1em;top: -25px;width: 230px;z-index: 2;}
+
 .htitle a{color:#ffffff;font-size:14px;}
+
 .htitle a:hover{color:#ffffff;}
+
 em{position:absolute;left:0;display:block;bottom:0;width:100%;height:30px;opacity:0.5;filter:alpha(opacity=45);background:#000;z-index:1;}
+
 #slide_01_dot{z-index:3;position:absolute;bottom:8px;right:5px; height:7px; overflow:hidden; line-height:40px; width:60px;}
+
 #slide_01_dot .dotItem{color:#fff; display:inline;margin-right:5px;width:7px;height:7px;font-size:14px;text-align:center;border: none;cursor:pointer;float:left; background-image:url(../images/dot0.png);}
+
 #slide_01_dot .selected{color:#fff; display:inline;margin-right:5px;width:7px;height:7px;font-size:14px;text-align:center;border: none;cursor:pointer;float:left; background-image:url(../images/dot1.png);}

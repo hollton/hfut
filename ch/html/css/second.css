@@ -495,15 +495,15 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,p{
 }
 html{
 
-_overflow:hidden;
+	_overflow:hidden;
 
 }
 
 body{
 
-_overflow:auto;
-
-height:100%;
+	_overflow:auto;
+	
+	height:100%;
 
 }
 .li_style5 li{
@@ -518,11 +518,11 @@ height:100%;
 	font-size:15px;
 }
 
-
-
 #returntop{
 	background: url("../images/top.gif");
+	
 	background-repeat:no-repeat;
+	
 	width:41px;
 	
 	height:39px;
@@ -542,13 +542,14 @@ height:100%;
 	display:none;
 	
 	cursor:pointer;}
+	
 #returntop:hover{opacity:0.8 ;}	
 	
 .li_style9{
 	padding-bottom: 14px;
-float: left;
-width: 750px;
-height: 20px;
+	float: left;
+	width: 750px;
+	height: 20px;
 }
 .li_style9 a{
 	font-weight:bold;
@@ -646,12 +647,9 @@ div, form, img, ul, li, body {
 	height:35px;
 }
 
-
-  .list_con li {
-line-height: 44px;
-
+.list_con li {
+	line-height: 44px;
 }
-
 
 .list_top{
 	background: url("../images/l_top.gif");
@@ -695,7 +693,6 @@ line-height: 44px;
 	background: url("../images/map.jpg");
 	background-repeat:no-repeat;
 }
-
 
 /*rcpy*/
 
@@ -838,10 +835,10 @@ line-height: 44px;
 	text-decoration:none;}
 
 .cm_onerow {
-width: 100%;
-height: 16px;
-padding-bottom: 12px;
-position: relative;
+	width: 100%;
+	height: 16px;
+	padding-bottom: 12px;
+	position: relative;
 }
 
 #index li{
@@ -908,53 +905,52 @@ pre{
 	
 /*	
 	天气添加css*/
-	#word{
-			font-size:16px;
-			color:#F00;
-			float:left;
-		}
-		#tem{
-			font-size:16px;
-			color:#F00;
-			float:left;
-		}
-		#sun{
-			font-size:16px;
-			color:#F00;
-			float:left;
-		}
-		#word1{
-			font-size:16px;
-			color:#F00;
-			float:left;
-		}
-		#tem1{
-			font-size:16px;
-			color:#F00;
-			float:left;
-		}
-		#sun1{
-			font-size:16px;
-			color:#F00;
-			float:left;
-		}
-		#newweather{
-			width:300px;
-			height:180px;
-			background:url(/images/weatherp.jpg) repeat-x 0 0;
-		}
-		.found{
-			width:600px;
-			height:58px;
-		}
-		#todaypic{
-			float:left;
-			margin-left:70px;
-			margin-top:12px;
-			width:57px;
-			height:57px;
-		}
-		#todayweek{
+#word{
+		font-size:16px;
+		color:#F00;
+		float:left;
+	}
+#tem{
+	font-size:16px;
+	color:#F00;
+	float:left;
+}
+#sun{
+	font-size:16px;
+	color:#F00;
+	float:left;
+}
+#word1{
+	font-size:16px;
+	color:#F00;
+	float:left;
+}
+#tem1{
+	font-size:16px;
+	color:#F00;
+	float:left;
+}
+#sun1{
+	font-size:16px;
+	color:#F00;
+	float:left;
+}
+#newweather{
+	width:300px;
+	height:180px;
+}
+.found{
+	width:600px;
+	height:58px;
+}
+#todaypic{
+	float:left;
+	margin-left:70px;
+	margin-top:12px;
+	width:57px;
+	height:57px;
+}
+#todayweek{
     color: #FFFFFF;
     float: left;
     font-size: 23px;
@@ -963,118 +959,118 @@ pre{
     margin-left: 28px;
     margin-top: 29px;
     width: 100px;
-		}
-		#todayweather{
-			color: #FFFFFF;
-			float: left;
-			font-size: 16px;
-			font-weight: bold;
-			font-family:"微软雅黑";
-			height: 30px;
-			margin-left: 55px;
-			margin-top: 5px;
-			text-align: center;
-			width: 78px;
-		}
-		#todaytem{
-   color: #FFFFFF;
-    float: left;
-    font-size: 18px;
+	}
+#todayweather{
+	color: #FFFFFF;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
 	font-family:"微软雅黑";
-    font-weight: bold;
-    height: 30px;
-    margin-top: 2px;
-    text-align: center;
-    width: 112px;
-		}
-		#todaybox{
-			width:300px;
-			height:111px;
-			background-color:#0AB9FD;
-		}
-		#tomorrowbox1{
-			padding-top:2px;
-			text-align:center;
-			color:#FFF;
-			font:"微软雅黑";
-			font-size:15px;
-			font-weight:bold;
-			width:99px;
-			height:67px;
-			float:left;
-			background-color:#34CEFF;
-			border-right:1px solid #66E1E2;
-		}
-		#tomorrowbox2{
-			padding-top:2px;
-			text-align:center;
-			color:#FFF;
-			font:"微软雅黑";
-			font-size:15px;
-			font-weight:bold;
-			width:99px;
-			height:67px;
-			float:left;
-			background-color:#34CEFF;
-			border-right:1px solid #66E1E2;
-		}
-		#tomorrowbox3{
-			padding-top:2px;
-			text-align:center;
-			color:#FFF;
-			font:"微软雅黑";
-			font-size:15px;
-			font-weight:bold;
-			width:100px;
-			height:67px;
-			float:left;
-			background-color:#34CEFF;
-		}
-		#tomorrowweek{
-			width:100px;
-			text-align:center;
-			}
-		#tomorrowweather{
-			width:100px;
-			text-align:center;
-			}
-		#tomorrowtem{
-			width:100px;
-			text-align:center;
-			}
-			#tomorrowweek2{
-			width:100px;
-			text-align:center;
-			}
-		#tomorrowweather2{
-			width:100px;
-			text-align:center;
-			}
-		#tomorrowtem2{
-			width:100px;
-			text-align:center;
-			}	
-			#tomorrowweek3{
-			width:100px;
-			text-align:center;
-			}
-		#tomorrowweather3{
-			width:100px;
-			text-align:center;
-			}
-		#tomorrowtem3{
-			width:100px;
-			text-align:center;
-			}		
+	height: 30px;
+	margin-left: 55px;
+	margin-top: 5px;
+	text-align: center;
+	width: 78px;
+	}
+#todaytem{
+	color: #FFFFFF;
+	float: left;
+	font-size: 18px;
+	font-family:"微软雅黑";
+	font-weight: bold;
+	height: 30px;
+	margin-top: 2px;
+	text-align: center;
+	width: 112px;
+	}
+#todaybox{
+	width:300px;
+	height:111px;
+	background-color:#0AB9FD;
+}
+#tomorrowbox1{
+	padding-top:2px;
+	text-align:center;
+	color:#FFF;
+	font:"微软雅黑";
+	font-size:15px;
+	font-weight:bold;
+	width:99px;
+	height:67px;
+	float:left;
+	background-color:#34CEFF;
+	border-right:1px solid #66E1E2;
+}
+#tomorrowbox2{
+	padding-top:2px;
+	text-align:center;
+	color:#FFF;
+	font:"微软雅黑";
+	font-size:15px;
+	font-weight:bold;
+	width:99px;
+	height:67px;
+	float:left;
+	background-color:#34CEFF;
+	border-right:1px solid #66E1E2;
+}
+#tomorrowbox3{
+	padding-top:2px;
+	text-align:center;
+	color:#FFF;
+	font:"微软雅黑";
+	font-size:15px;
+	font-weight:bold;
+	width:100px;
+	height:67px;
+	float:left;
+	background-color:#34CEFF;
+}
+#tomorrowweek{
+	width:100px;
+	text-align:center;
+	}
+#tomorrowweather{
+	width:100px;
+	text-align:center;
+	}
+#tomorrowtem{
+	width:100px;
+	text-align:center;
+	}
+	#tomorrowweek2{
+	width:100px;
+	text-align:center;
+	}
+#tomorrowweather2{
+	width:100px;
+	text-align:center;
+	}
+#tomorrowtem2{
+	width:100px;
+	text-align:center;
+	}	
+	#tomorrowweek3{
+	width:100px;
+	text-align:center;
+	}
+#tomorrowweather3{
+	width:100px;
+	text-align:center;
+	}
+#tomorrowtem3{
+	width:100px;
+	text-align:center;
+	}		
 			
 #tq1{ 
 	background-color:#FFF;
 
 	 position:absolute;
 
-	 top:45px;
+	 top:44px;
 
-	 left:646px;
+	 left:643px;
 
  display:none;}
 
@@ -1162,20 +1158,38 @@ pre{
 
 	background-repeat:no-repeat;}			
 			
-		table{border:0}
-#cal{width:368px;border:1px solid #183E50;font-size:12px;margin:0px 0 0 0px}
-#cal #top{height:27px;line-height:29px;background:#a3e9ff;color:#003784;padding-left:30px}
-#cal #top select{font-size:12px}
-#cal #top input{padding:0}
-#cal ul#wk{margin:0;padding:0;height:34px}
-#cal ul#wk li{font-weight:normal;float:left;width:51px;text-align:center;line-height:25px;list-style:none}
+table{border:0}
+
+#cal{width:368px;border:1px solid #57ABFF;font-size:12px;}
+
+#cal #top{height:30px;line-height:28px;background:#56AAFF;/*background:#a3e9ff;*/color:#003784;padding-left:40px;}
+
+#cal #top select{font-size:12px;}
+
+#cal #top input{padding:0;background:#89c4ff;border:0; display:none;}
+
+#cal ul#wk{margin:0;padding:0;height:30px}
+
+#cal ul#wk li{font-weight:normal;width:51px;text-align:center;line-height:25px;list-style:none;height:30px}
+
 #cal ul#wk li b{font-weight:normal;color:#c60b02}
+
 #cal #cm{clear:left;border-top:1px solid #ddd;position:relative}
-#cal #cm .cell{position:absolute;width:36px;height:36px;text-align:center;margin:0 0 0 15px}
+
+#cal #cm .cell{position:absolute;width:40px;height:40px;margin:0 0 0 5px}
+
 #cal #cm .cell .so{font:bold 16px arial;}
+
+.cell div{ text-align:center;}
+
+.cell:hover{ background-color:#D6E9FF; cursor:pointer;}
+
 #cal #bm{text-align:right;height:24px;line-height:24px;padding:0 13px 0 0}
+
 #cal #bm a{color:7977ce}
+
 #cal #fd{display:none;position:absolute;border:1px solid #dddddf;background:#feffcd;padding:10px;line-height:21px;width:150px}
+
 #cal #fd b{font-weight:normal;color:#c60a00}	
 
 .lable td {
@@ -1205,4 +1219,24 @@ pre{
 .blank {
 	width: 552px;
 	*+width:535px;
+}
+
+/*下拉悬浮导航*/
+div.navigation{ 
+width:100%;
+height: 50px;  
+margin:0 auto; 
+} 
+
+.nav_blank{
+	width:1024px;
+	height:50px;
+	margin:0 auto;
+}
+#nava{
+	z-index:99;
+	width:100%;
+	height:50px;
+	margin:0 auto;
+	position:fixed;
 }

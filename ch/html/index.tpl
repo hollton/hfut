@@ -7,16 +7,25 @@
 <meta name="Robots" content="all">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
 
 <link rel="icon" href="html/images/favicon.ico" type="image/x-icon"/>
 <link rel="shortcut icon" href="html/images/favicon.ico"  type="image/x-icon"/>
 <title>合肥工业大学(HeFei University of Technology)</title>
 
-<link rel="stylesheet" media="screen and (min-width:360px)" href="html/css/nivo-slider.css" type="text/css"/>
-<link href="html/css/wholestyle.css" rel="stylesheet" type="text/css"/>
-<link href="html/css/second.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" media="screen and (max-width:360px)" href="html/css/mobile.css" type="text/css"/>
-<link href="html/css/switch.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" type="text/css" media="screen and (min-width:360px)" href="html/css/nivo-slider.css"/>
+<link rel="stylesheet" type="text/css" href="html/css/wholestyle.css"/>
+<link rel="stylesheet" type="text/css" href="html/css/second.css" />
+<link rel="stylesheet" type="text/css" media="screen and (max-width:360px)" href="html/css/mobile.css"/>
+<link rel="stylesheet" type="text/css" href="html/css/switch.css"/>
+
+<script type="text/javascript">
+var isIE6=!-[1,]&&!window.XMLHttpRequest;
+if(isIE6){window.location="html/ie6.html";}
+else;
+</script>
 
 </head>
 <body>
@@ -268,56 +277,61 @@
                     </div>              
                 </div>
             
-                <div id="mid_right">
+                <div id="mid_right">                
                     <div id="mainlinksA">
-                    <a title="一周会议" href="http://news.hfut.edu.cn/index.php?m=content&c=index&a=mrbs" target="_blank"></a>
-                    </div>
-                    <div class="bgtext bgtext3">一周会议</div>
-                    
+                    	<a title="一周会议" href="http://news.hfut.edu.cn/index.php?m=content&c=index&a=mrbs" target="_blank"></a>
+                    </div>                    
+                    <div class="bgtext bgtext3">一周会议</div> 
+
                     <div id="mainlinksB">
                     <a title="校园地图" href="http://map.hfut.edu.cn" target="_blank"></a>
                     </div>
                     <div class="bgtext bgtext4">校园地图</div>
-                    
+
                     <div id="mainlinksC">
                     <a title="信息门户" href="http://my.hfut.edu.cn/" target="_blank"></a>
                     </div>
                     <div class="bgtext bgtext5">信息门户</div>
-                    
+
                     <div id="mainlinksD">
-                    <a title="邮件系统" href="http://email.hfut.edu.cn" target="_blank"></a>
+                    <a title="办公系统" href="http://oa.hfut.edu.cn" target="_blank"></a>
                     </div>
-                    <div class="bgtext bgtext6">邮件系统</div>
+                    <div class="bgtext bgtext6">办公系统</div>
                     
                     <div id="mainlinksE">
+                    <a title="邮件系统" href="http://email.hfut.edu.cn" target="_blank"></a>
+                    </div>
+                    <div class="bgtext bgtext7">邮件系统</div>
+
+                    <div id="mainlinksF">
                     <a title="校长信箱" href="http://xzxx.hfut.edu.cn" target="_blank"></a>
                     </div>
-                    <div class="bgtext bgtext7">校长信箱</div>
-                    
-                    <div id="mainlinksF">
-                    <a title="网络服务" href="http://user.hfut.edu.cn/" target="_blank"></a>
-                    </div>
-                    <div class="bgtext bgtext8">网络服务</div>
+                    <div class="bgtext bgtext8">校长信箱</div>
                     
                     <div id="mainlinksG">
+                    <a title="网络服务" href="http://user.hfut.edu.cn/" target="_blank"></a>
+                    </div>
+                    <div class="bgtext bgtext9">网络服务</div>
+
+                    <div id="mainlinksH">
                     <a title="校友会" href="http://xyh.hfut.edu.cn/" target="_blank"></a>
                     </div>
-                    <div class="bgtext bgtext9">校友会</div>
-                    
-                    <div id="mainlinksH">
+                    <div class="bgtext bgtext10">校友会</div>
+
+                    <div id="mainlinksI">
                     <a title="图书馆" href="http://lib.hfut.edu.cn/" target="_blank"></a>
                     </div>
-                    <div class="bgtext bgtext10">图书馆</div>
-                    
+                    <div class="bgtext bgtext11">图书馆</div>
+
                     <div id="mainlinksJ">
                     <a title="工大学子" href="http://online.hfut.edu.cn/" target="_blank"></a>
                     </div>
-                    <div class="bgtext bgtext11">工大学子</div>
-                    
+                    <div class="bgtext bgtext12">工大学子</div>
+
                     <div id="mainlinksK">
                     <a title="工大论坛" href="http://bbs.hfut.edu.cn/" target="_blank"></a>
                     </div>
-                    <div class="bgtext bgtext12">工大论坛</div>
+                    <div class="bgtext bgtext13">工大论坛</div>
                 </div>
             </div>
         </div>
@@ -326,11 +340,35 @@
         	<font class="tohamafont">Copyright&nbsp;&copy;&nbsp;2008</font>&nbsp;合肥工业大学&nbsp;&nbsp;地址：<a href="http://map.hfut.edu.cn/jtlx.html" target="_blank">安徽省合肥市屯溪路<font class="tohamafont">193</font>号<font class="tohamafont">(230009)</font></a>&nbsp;&nbsp;<a style="color:#FF9" href="http://www1.hfut.edu.cn" title="旧版主页" target="_blank">旧版主页</a>&nbsp;&nbsp;皖<font class="tohamafont">ICP</font>备<font class="tohamafont">020549</font>号</div>        
     </div>
     
-<script src="html/js/jquery-1.6.2.min.js" type="text/javascript"></script>
+<!--触摸新闻图-->
 <script type="text/javascript" src="html/js/switch.js"></script>
-<script type="text/javascript" src="html/js/tianqi.js"></script>
-<script type="text/javascript" src="html/js/jquery.nivo.slider.pack.js "></script>
 
+<script type="text/javascript" src="html/js/jquery-1.6.2.min.js"></script>
+
+<!--导航下拉菜单-->
+<script type="text/javascript">
+function cjMenu(ulElementId,speed)
+{
+	$("#"+ulElementId).children("li:has(ul)").hover(function()
+	{
+		var ulnode=$(this);
+		timeoutid=setTimeout(function()
+		{
+			ulnode.children("ul").slideDown(speed);
+		},100);
+	},function()
+	{
+		clearTimeout(timeoutid);
+		$(this).children("ul").hide(300);
+	} );
+}
+
+cjMenu("ulnav",100);
+cjMenu("san",100);
+</script>
+
+<!--大图-->
+<script type="text/javascript" src="html/js/jquery.nivo.slider.pack.js "></script>
 <script type="text/javascript">
 	var total=$('#slider img').length;
 	var rand=Math.floor(Math.random()*total);
@@ -339,22 +377,12 @@
 	});
 </script>
 
-<script type="text/javascript">//<![CDATA[
-function cjMenu(ulElementId,speed){$("#"+ulElementId).children("li:has(ul)").hover(function(){var ulnode=$(this);timeoutid=setTimeout(function(){ulnode.children("ul").slideDown(speed);},100);},function(){clearTimeout(timeoutid);$(this).children("ul").hide(300);});$("#"+ulElementId).find("li>ul>li>a").hover(function(){$(this).animate({paddingLeft:"+=0px"},speed);},function(){$(this).animate({paddingLeft:"-=0px"},speed);});}
-//]]></script>
-
-<script type="text/javascript">
-	$(function(){cjMenu("ulnav",100);cjMenu("san",100);});
-</script>
-
-<script>
-var isIE6=!-[1,]&&!window.XMLHttpRequest;
-if(isIE6){window.location="html/ie6.html";}
-else;
-</script>
-
-<script type="text/javascript" src="html/js/calendar.js"></script>
+<!--提取后台提供的天气数据-->
+<script type="text/javascript" src="html/js/tianqi.js"></script>
+<!--天气、时间-->
 <script type="text/javascript" src="html/js/weatime.js"></script>
+<!--日历-->
+<script type="text/javascript" src="html/js/calendar.js"></script>
 
 </body>
 </html>
