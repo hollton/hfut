@@ -9,189 +9,309 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <link rel="icon" href="html/images/favicon.ico" type="image/x-icon"/>
 <link rel="shortcut icon" href="html/images/favicon.ico"  type="image/x-icon"/>
+
 <title>合肥工业大学(HeFei University of Technology)</title>
-<link rel="stylesheet" type="text/css" href="css/wholestyle.css" />
-<link rel="stylesheet" type="text/css" href="css/second.css" />
+
+<link href="css/wholestyle.css" rel="stylesheet" type="text/css" />
+<link href="css/second.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body >
-<div id="bigcontainer">
-	<div id="head">
-		<div class="top">
-			<div class="head_img"> 
-				<img id="school" src="images/hfut_03.png" alt="合肥工业大学" style="float:left; margin-top:6px" />
-				<img src="images/hfut_03.jpg" style="float:right;" />
-			</div>
-		</div>
-	</div>
-		
-	<div  id="nava" class="navigation">
-		<div id="nav">
+	<div id="bigcontainer"> 
+		<!--head-->
+		<div id="head">
 			<div class="top">
-				<ul id="ulnav">
-					<div id="index">
-						<li><a href="../index.html" class="zero"></a></li>
-					</div>
-					<li><a href="http://news.hfut.edu.cn/" class="aone" target="_blank"></a></li>
-					<li><a href="xxgk.html" class="atwo"></a>
-						<ul>
-							<li><a href="xxgk.html">工大简介</a></li>
-							<li><a href="xrld.html">现任领导</a></li>
-							<li><a href="lrld.html">历任领导</a></li>
-							<li><a href="vis.html" style="border-bottom:none">VIS系统</a></li>
-						</ul>
-					</li>
-					<li><a href="http://xc.hfut.edu.cn" class="athree" target="_blank"></a></li>
-					<li><a href="jgsz.html" class="afour"></a></li>
-					<li><a class="afive"></a>
-						<ul id="san">
-							<li><a href="http://jwb.hfut.edu.cn/jwb/" target="_blank">本科教育</a></li>
-							<li><a href="http://pyb.hfut.edu.cn/" target="_blank">研究生教育</a></li>
-							<li><a href="http://cjy.hfut.edu.cn/" target="_blank">继续教育</a></li>
-							<li><a href="http://international.hfut.edu.cn/" target="_blank" style="border-bottom:none">国际教育</a>
-								<ul>
-									<li><a href="http://www.admissions.cn/hfut/index.html" target="_blank">来华留学</a></li>
-									<li><a href="http://www.hfutedu.com/" target="_blank">出国留学</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><a href="http://kyy.hfut.edu.cn/" class="akxyj" target="_blank"></a></li>
-					<li><a class="azsjy"></a>
-						<ul>
-							<li><a href="http://bkzs.hfut.edu.cn/" target="_blank">本科招生</a></li>
-							<li><a href="http://yjszs.hfut.edu.cn/" target="_blank">研究生招生</a></li>
-							<li><a href="http://zyxw.hfut.edu.cn/" target="_blank">在职硕士招生</a></li>
-							<li><a href="http://cjy.hfut.edu.cn/" target="_blank">继续教育招生</a></li>
-							<li><a href="http://gdjy.hfut.edu.cn/" target="_blank" style="border-bottom:none">就业指导服务</a></li>
-						</ul>
-					</li>
-				</ul>
-				<div id="icon_c"></div>
-				<div id="showtime"></div>
-				<div id="tq">
-					<div id="newweather">
-						<div id="todaybox">
-							<div id="todaypic"></div>
-							<div id="todayweek"></div>
-							<div style="clear:both;"></div>
-							<div id="todayweather"></div>
-							<div id="todaytem"></div>
-						</div>
-						<div id="tomorrowbox1">
-							<div id="tomorrowweek"></div>
-							<div id="tomorrowweather"></div>
-							<div id="tomorrowtem"></div>
-						</div>
-						<div id="tomorrowbox2">
-							<div id="tomorrowweek2"></div>
-							<div id="tomorrowweather2"></div>
-							<div id="tomorrowtem2"></div>
-						</div>
-						<div id="tomorrowbox3">
-							<div id="tomorrowweek3"></div>
-							<div id="tomorrowweather3"></div>
-							<div id="tomorrowtem3"></div>
-						</div>
-					</div>
-				</div>
-				<div id="icon_w"></div>
-				<div id="weather"></div>
-				<div id="weathert"></div>
-				<div id="tq1">
-					<table cellpadding="0" cellspacing="0" id="1">
-						<tr>
-							<td><!--[if IE]>
-								<style>
-								#cal #top{padding-top:4px}
-								#cal #top input{width:65px}
-								#cal #fd{width:170px}
-								</style>
-								<![endif]-->
-								
-								<div id="cal">
-									<div id="top">公元&nbsp;
-										<select>
-										</select>
-										&nbsp;年&nbsp;
-										<select>
-										</select>
-										&nbsp;月&nbsp;&nbsp;&nbsp;&nbsp;农历<span></span>年&nbsp;[&nbsp;<span></span>年&nbsp;]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										<input type="button" value="回到今天" title="点击后跳转回今天" style="padding:0px;display:none;">
-									</div>
-									<ul id="wk">
-										<li>一</li>
-										<li>二</li>
-										<li>三</li>
-										<li>四</li>
-										<li>五</li>
-										<li><b>六</b></li>
-										<li><b>日</b></li>
-									</ul>
-									<div id="cm"></div>
-								</div></td>
-						</tr>
-					</table>
+				<div class="head_img"> 
+					<img id="school" src="images/hfut_03.png" alt="合肥工业大学" style="float:left; margin-top:6px" />
+					<img src="images/hfut_03.jpg" style="float:right;" />
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="nav_blank"></div>
-	<div class="rw_main_box">
-		<div class="left_box">
-			<div id="left_list_tittle1"> </div>
-			<div id="left_list_po">
-				<ul>
-					<div class="list_top">
-						<li> <a href="xxgk.html" target="" title="">工大简介</a> </li>
-					</div>
-					<div class="list_con">
-						<li> <a href="xrld.html" target="" title="">现任领导</a> </li>
-					</div>
-					<div class="list_con">
-						<li> <a href="lrld.html" target="" title="">历任领导</a> </li>
-					</div>
-					<div class="list_con">
-						<li> <a href="vis.html" target="" title="">VIS系统</a> </li>
-					</div>
-					<div class="list_bo">
-						<li> </li>
-					</div>
-				</ul>
-			</div>
-		</div>
-		<div class="right_box">
-			<div class="right_tittle_bg"> <a name="a1">
-				<div id="right_tittle_xrld"> </div>
-				</a> </div>
-			<div class="wz_con">
-				<div class="cm_detail">
-					<div class="description">
-						<div class="photocontainer"> <img src="images/200xzdy.jpg"/> </div>
-						<strong>朱大勇</strong> 党委副书记、副校长 <br/>
-						<br/>
-						<strong>基本情况：</strong> 朱大勇，男，1965年2月生，汉族，中共党员，安徽省枞阳县人。 <br/>
-						<br/>
-						<strong>现任:</strong> 合肥工业大学副书记、副校长、党委常委、教授、博士生导师。 <br/>
-						<br/>
-						<strong>工作简历：</strong> 1986年毕业于合肥工业大学水利工程系水工结构专业，获学士学位；1989年获西南交通大学岩土工程硕士学位；1989年至1996年在冶金部马鞍山矿山研究院从事矿山岩石力学科研工作；1999年获南京工程兵工程学院防灾减灾工程及防护工程博士学位， 1999年至2002年在河海大学博士后流动站，期间在香港大学土木工程系、加拿大Alberta大学做访问学者，2002年在解放军理工大学任副教授，2006年转业调入合肥工业大学，任教授、博士生导师。2007年12月至2011年6月任合肥工业大学土木与水利工程学院院长，2011年3月至2012年6月任合肥工业大学副教务长、研究生院副院长。2012年6月任合肥工业大学副校长；2013年12月任合肥工业大学党委副书记。 <br/>
-						<br/>
-						<strong>学术活动及学术成果：</strong> 主要从事岩土与地下工程、滑坡及地质灾害治理、水工结构与水资源工程等方向的科研与教学工作，先后主持国家自然科学基金面上项目4项，教育部博士点基金1项，主持其他纵横向项目20余项。在《Geotechnique》、《Canadian Geotechnical Journal》、《土木工程学报》、《岩石力学与工程学报》、《岩土工程学报》等国内外刊物发表论文80余篇。获军队科技进步奖一等奖1项（排名第一），二等奖1项（排名第八），三等奖二项（分别排名第一、第三），安徽省科技进步二等奖2项（分别排名第一、第二）。2004获中国岩石力学与工程学会第二届青年科技金奖，2009年获安徽省第十届青年科技奖、“新世纪百千万人才工程”国家级人选，2010年获国务院政府特殊津贴。 <br/>
-						<br/>
-						<strong>学术兼职：</strong> 国际岩石力学学会工程实例委员会委员；中国岩石力学与工程学会地面工程委员会副主任委员，安徽省土木建筑学会常务理事，安徽省土木建筑学会城市桥梁与地下工程专业委员主任委员，安徽省土木建筑学会结构专业委员会副主任委员，安徽省岩石力学与工程学会副理事长，安徽省公路学会常委理事；《岩石力学与工程学报》、《防灾与减灾工程学报》等刊物编委。 <br/>
-						<strong>分管工作：</strong> 负责宣城校区工作、人才培养有关工作。分管宣城校区管委会，教务部招生办公室、质量管理与评估办公室、教师发展中心。联系化学工程学院。 </div>
-					<div style="clear: both; "/>
-				</div>
-			</div>
-		</div>
-	</div>
+		
+		<!--nav-->
+		<div  id="nava" class="navigation">
+			<div id="nav">
+				<div class="top">
+					<ul id="ulnav">
+						<div id="index">
+							<li><a href="../index.html" class="zero"></a></li>
+						</div>
+						<li><a href="http://news.hfut.edu.cn/" class="aone" target="_blank"></a></li>
+						<li><a href="xxgk.html" class="atwo"></a>
+							<ul>
+								<li><a href="xxgk.html">工大简介</a></li>
+								<li><a href="xrld.html">现任领导</a></li>
+								<li><a href="lrld.html">历任领导</a></li>
+								<li><a href="vis.html" style="border-bottom:none">VIS系统</a></li>
+							</ul>
+						</li>
+						<li><a href="http://xc.hfut.edu.cn" class="athree" target="_blank"></a></li>
+						<li><a href="jgsz.html" class="afour"></a></li>
+						<li><a class="afive"></a>
+							<ul id="san">
+								<li><a href="http://jwb.hfut.edu.cn/jwb/" target="_blank">本科教育</a></li>
+								<li><a href="http://pyb.hfut.edu.cn/" target="_blank">研究生教育</a></li>
+								<li><a href="http://jxjy.hfut.edu.cn/" target="_blank">继续教育</a></li>
+                                <li><a href="http://international.hfut.edu.cn/" target="_blank" style="border-bottom:none">国际教育</a>
+                                    <ul>
+                                        <li><a href="http://www.admissions.cn/hfut/index.html" target="_blank">来华留学</a></li>
+                                        <li><a href="http://www.hfutedu.com/" target="_blank">出国留学</a></li>
+                                    </ul>
+                                </li>
+                        	</ul>
+                        </li>
+    					<li><a href="http://kyy.hfut.edu.cn/" class="akxyj" target="_blank"></a></li>
+                        <li><a class="azsjy"></a>                        
+                            <ul>                            
+                              <li><a href="http://bkzs.hfut.edu.cn/" target="_blank">本科招生</a></li>                            
+                              <li><a href="http://yjszs.hfut.edu.cn/" target="_blank">研究生招生</a></li>                            
+                              <li><a href="http://zyxw.hfut.edu.cn/" target="_blank">在职硕士招生</a></li>                            
+                              <li><a href="http://jxjy.hfut.edu.cn/" target="_blank">继续教育招生</a></li>                            
+                              <li><a href="http://gdjy.hfut.edu.cn/" target="_blank" style="border-bottom:none">就业指导服务</a></li>
+                            </ul>                        
+                        </li>
+					</ul>
+                    <div id="icon_c"></div>
+                    <div id="showtime"></div>
+                
+                <div id="tq1"><table cellpadding="0" cellspacing="0" id="1">
+
+                  <tr>
+
+                    <td>
+
+                        <!--[if IE]>
+
+                        <style>
+
+                        #cal #top{padding-top:4px}
+
+                        #cal #top input{width:65px}
+
+                        #cal #fd{width:170px}
+
+                        </style>
+
+                        <![endif]-->
+
+                
+
+                        <div id="cal">
+
+                        <div id="top">公元&nbsp;
+
+                          <select>
+
+                          </select>
+
+                          &nbsp;年&nbsp;
+
+                          <select>
+
+                          </select>
+
+                          &nbsp;月&nbsp;&nbsp;&nbsp;&nbsp;农历<span></span>年&nbsp;[&nbsp;<span></span>年&nbsp;]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                          <input type="button" value="回到今天" title="点击后跳转回今天" style="padding:0px;display:none;">
+
+                        </div>
+
+                        <ul id="wk">
+
+                          <li>一</li>
+
+                          <li>二</li>
+
+                          <li>三</li>
+
+                          <li>四</li>
+
+                          <li>五</li>
+
+                          <li><b>六</b></li>
+
+                          <li><b>日</b></li>
+
+                        </ul>
+
+                        <div id="cm"></div>
+
+                        </div>
+
+                     </td>
+
+                  </tr>
+
+                </table>
+
+                
+
+                </div>
+
+                <div id="tq">
+
+                    <div id="newweather">
+
+                        <div id="todaybox">
+
+                                <div id="todaypic"></div>
+
+                                <div id="todayweek"></div>
+
+                                <div style="clear:both;"></div>
+
+                                <div id="todayweather"></div>
+
+                                <div id="todaytem"></div>
+
+                        </div>
+
+                        <div id="tomorrowbox1">
+
+                                <div id="tomorrowweek"></div>
+
+                                <div id="tomorrowweather"></div>
+
+                                <div id="tomorrowtem"></div>
+
+                        </div>
+
+                        <div id="tomorrowbox2">
+
+                                <div id="tomorrowweek2"></div>
+
+                                <div id="tomorrowweather2"></div>
+
+                                <div id="tomorrowtem2"></div>
+
+                        </div>
+
+                        <div id="tomorrowbox3">
+
+                                <div id="tomorrowweek3"></div>
+
+                                <div id="tomorrowweather3"></div>
+
+                                <div id="tomorrowtem3"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>            
+
+                <div id="icon_w"></div>
+
+                <div id="weather"></div>
+
+                <div id="weathert"></div>
+                </div>
+            </div>
+  		</div>
+		<div class="nav_blank"></div>
+      <div class="rw_main_box">
+    
+        <div class="left_box">
+    
+          <div id="left_list_tittle1"> </div>
+    
+          <div id="left_list_po">
+    
+            <ul>
+    
+              <div class="list_top">
+    
+                <li> <a href="xxgk.html" target="_self" title="">工大简介</a> </li>
+    
+              </div>
+    
+              <div class="list_con">
+    
+                <li> <a href="xrld.html" target="_self" title="">现任领导</a> </li>
+    
+              </div>
+    
+              <div class="list_con">
+    
+                <li> <a href="lrld.html" target="_self" title="">历任领导</a> </li>
+    
+              </div>
+    
+              <div class="list_con">
+    
+                <li> <a href="vis.html" target="_self" title="">VIS系统</a> </li>
+    
+              </div>
+       <div class="list_bo">
+    
+                <li> </li>
+    
+              </div>
+    
+            </ul>
+    
+          </div>
+    
+        </div>
+
+    <div class="right_box">
+
+      <div class="right_tittle_bg"> <a name="a1">
+
+        <div id="right_tittle_xrld"> </div>
+
+        </a> </div>
+
+      <div class="wz_con">
+
+        <div class="cm_detail">
+
+          <div class="description">
+
+            <div class="photocontainer"> <img src="images/200xzdy.jpg"/> </div>
+
+            <strong>朱大勇</strong> 党委副书记、副校长 <br/>
+
+            <br/>
+
+            <strong>基本情况：</strong> 朱大勇，男，1965年2月生，汉族，中共党员，安徽省枞阳县人。 <br/>
+
+            <br/>
+            
+            <strong>现任:</strong> 合肥工业大学副书记、副校长、党委常委、教授、博士生导师。 <br/>
+
+            <br/>
+
+            <strong>工作简历：</strong> 1986年毕业于合肥工业大学水利工程系水工结构专业，获学士学位；1989年获西南交通大学岩土工程硕士学位；1989年至1996年在冶金部马鞍山矿山研究院从事矿山岩石力学科研工作；1999年获南京工程兵工程学院防灾减灾工程及防护工程博士学位， 1999年至2002年在河海大学博士后流动站，期间在香港大学土木工程系、加拿大Alberta大学做访问学者，2002年在解放军理工大学任副教授，2006年转业调入合肥工业大学，任教授、博士生导师。2007年12月至2011年6月任合肥工业大学土木与水利工程学院院长，2011年3月至2012年6月任合肥工业大学副教务长、研究生院副院长。2012年6月任合肥工业大学副校长；2013年12月任合肥工业大学党委副书记。 <br/>
+
+            <br/>
+
+            <strong>学术活动及学术成果：</strong> 主要从事岩土与地下工程、滑坡及地质灾害治理、水工结构与水资源工程等方向的科研与教学工作，先后主持国家自然科学基金面上项目4项，教育部博士点基金1项，主持其他纵横向项目20余项。在《Geotechnique》、《Canadian Geotechnical Journal》、《土木工程学报》、《岩石力学与工程学报》、《岩土工程学报》等国内外刊物发表论文80余篇。获军队科技进步奖一等奖1项（排名第一），二等奖1项（排名第八），三等奖二项（分别排名第一、第三），安徽省科技进步二等奖2项（分别排名第一、第二）。2004获中国岩石力学与工程学会第二届青年科技金奖，2009年获安徽省第十届青年科技奖、“新世纪百千万人才工程”国家级人选，2010年获国务院政府特殊津贴。 <br/>
+
+            <br/>
+
+            <strong>学术兼职：</strong> 国际岩石力学学会工程实例委员会委员；中国岩石力学与工程学会地面工程委员会副主任委员，安徽省土木建筑学会常务理事，安徽省土木建筑学会城市桥梁与地下工程专业委员主任委员，安徽省土木建筑学会结构专业委员会副主任委员，安徽省岩石力学与工程学会副理事长，安徽省公路学会常委理事；《岩石力学与工程学报》、《防灾与减灾工程学报》等刊物编委。 <br/>
+
+            <strong>分管工作：</strong> 负责宣城校区工作、人才培养有关工作。分管宣城校区管委会，教务部招生办公室、质量管理与评估办公室、教师发展中心。联系化学工程学院。 </div>
+
+          <div style="clear: both; "/>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
 </div>
-<div id="returntop"></div>
-						
-		<div id="copyright">
-			<font class="tohamafont">Copyright&nbsp;&copy;&nbsp;2008</font>&nbsp;合肥工业大学&nbsp;&nbsp;地址：<a href="http://map.hfut.edu.cn/jtlx.html" target="_blank">安徽省合肥市屯溪路<font class="tohamafont">193</font>号<font class="tohamafont">(230009)</font></a>&nbsp;&nbsp;<a style="color:#FF9" href="http://www1.hfut.edu.cn" title="旧版主页" target="_blank">旧版主页</a>&nbsp;&nbsp;皖<font class="tohamafont">ICP</font>备<font class="tohamafont">020549</font>号
-		</div>
-	</div>
+
+        <div id="returntop"></div>
+        
+        <div id="copyright">
+            <font class="tohamafont">Copyright&nbsp;&copy;&nbsp;2008</font>&nbsp;合肥工业大学&nbsp;&nbsp;地址：<a href="http://map.hfut.edu.cn/jtlx.html" target="_blank">安徽省合肥市屯溪路<font class="tohamafont">193</font>号<font class="tohamafont">(230009)</font></a>&nbsp;&nbsp;<a style="color:#FF9" href="http://www1.hfut.edu.cn" title="旧版主页" target="_blank">旧版主页</a>&nbsp;&nbsp;皖<font class="tohamafont">ICP</font>备<font class="tohamafont">020549</font>号
+        </div>
+    </div>
 </div>
 	
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script> 

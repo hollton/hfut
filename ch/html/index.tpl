@@ -15,11 +15,10 @@
 <link rel="shortcut icon" href="html/images/favicon.ico"  type="image/x-icon"/>
 <title>合肥工业大学(HeFei University of Technology)</title>
 
-<link rel="stylesheet" type="text/css" media="screen and (min-width:360px)" href="html/css/nivo-slider.css"/>
-<link rel="stylesheet" type="text/css" href="html/css/wholestyle.css"/>
-<link rel="stylesheet" type="text/css" href="html/css/second.css" />
-<link rel="stylesheet" type="text/css" media="screen and (max-width:360px)" href="html/css/mobile.css"/>
-<link rel="stylesheet" type="text/css" href="html/css/switch.css"/>
+<link rel="stylesheet" media="screen and (min-width:360px)" href="html/css/nivo-slider.css" type="text/css"/>
+<link href="html/css/wholestyle.css" rel="stylesheet" type="text/css"/>
+<link href="html/css/second.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" media="screen and (max-width:360px)" href="html/css/mobile.css" type="text/css"/>
 
 <script type="text/javascript">
 var isIE6=!-[1,]&&!window.XMLHttpRequest;
@@ -58,7 +57,7 @@ else;
                         <ul id="san">
                             <li><a href="http://jwb.hfut.edu.cn/jwb/" target="_blank">本科教育</a></li>
                             <li><a href="http://pyb.hfut.edu.cn/" target="_blank">研究生教育</a></li>
-                            <li><a href="http://cjy.hfut.edu.cn/" target="_blank">继续教育</a></li>
+                            <li><a href="http://jxjy.hfut.edu.cn/" target="_blank">继续教育</a></li>
                             <li><a href="http://international.hfut.edu.cn/" target="_blank" style="border-bottom:none">国际教育</a>
                         	<ul>
                             	<li><a href="http://www.admissions.cn/hfut/index.html" target="_blank">来华留学</a></li>
@@ -73,79 +72,147 @@ else;
                             <li><a href="http://bkzs.hfut.edu.cn/" target="_blank">本科招生</a></li>
                             <li><a href="http://yjszs.hfut.edu.cn/" target="_blank">研究生招生</a></li>
                             <li><a href="http://zyxw.hfut.edu.cn/" target="_blank">在职硕士招生</a></li>
-                            <li><a href="http://cjy.hfut.edu.cn/" target="_blank">继续教育招生</a></li>
+                            <li><a href="http://jxjy.hfut.edu.cn/" target="_blank">继续教育招生</a></li>
                             <li><a href="http://gdjy.hfut.edu.cn/" target="_blank" style="border-bottom:none">就业指导服务</a></li>
                         </ul>
                     </li>
                 </ul>
+
             	<div id="icon_c"></div>
+
             	<div id="showtime"></div>
-                <div id="tq">
-                    <div id="newweather">
-                        <div id="todaybox">
-                                <div id="todaypic"></div>
-                                <div id="todayweek"></div>
-                                <div style="clear:both;"></div>
-                                <div id="todayweather"></div>
-                                <div id="todaytem"></div>
-                        </div>
-                        <div id="tomorrowbox1">
-                                <div id="tomorrowweek"></div>
-                                <div id="tomorrowweather"></div>
-                                <div id="tomorrowtem"></div>
-                        </div>
-                        <div id="tomorrowbox2">
-                                <div id="tomorrowweek2"></div>
-                                <div id="tomorrowweather2"></div>
-                                <div id="tomorrowtem2"></div>
-                        </div>
-                        <div id="tomorrowbox3">
-                                <div id="tomorrowweek3"></div>
-                                <div id="tomorrowweather3"></div>
-                                <div id="tomorrowtem3"></div>
-                        </div>
-                    </div>
-                </div>            
-                <div id="icon_w"></div>
-                <div id="weather"></div>
-                <div id="weathert"></div>
+                
                 <div id="tq1"><table cellpadding="0" cellspacing="0" id="1">
+
                   <tr>
+
                     <td>
+
                         <!--[if IE]>
+
                         <style>
+
                         #cal #top{padding-top:4px}
+
                         #cal #top input{width:65px}
+
                         #cal #fd{width:170px}
+
                         </style>
+
                         <![endif]-->
+
                 
+
                         <div id="cal">
+
                         <div id="top">公元&nbsp;
+
                           <select>
+
                           </select>
+
                           &nbsp;年&nbsp;
+
                           <select>
+
                           </select>
+
                           &nbsp;月&nbsp;&nbsp;&nbsp;&nbsp;农历<span></span>年&nbsp;[&nbsp;<span></span>年&nbsp;]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
                           <input type="button" value="回到今天" title="点击后跳转回今天" style="padding:0px;display:none;">
+
                         </div>
+
                         <ul id="wk">
+
                           <li>一</li>
+
                           <li>二</li>
+
                           <li>三</li>
+
                           <li>四</li>
+
                           <li>五</li>
+
                           <li><b>六</b></li>
+
                           <li><b>日</b></li>
+
                         </ul>
+
                         <div id="cm"></div>
+
                         </div>
+
                      </td>
+
                   </tr>
+
                 </table>
+
                 
+
                 </div>
+
+                <div id="tq">
+
+                    <div id="newweather">
+
+                        <div id="todaybox">
+
+                                <div id="todaypic"></div>
+
+                                <div id="todayweek"></div>
+
+                                <div style="clear:both;"></div>
+
+                                <div id="todayweather"></div>
+
+                                <div id="todaytem"></div>
+
+                        </div>
+
+                        <div id="tomorrowbox1">
+
+                                <div id="tomorrowweek"></div>
+
+                                <div id="tomorrowweather"></div>
+
+                                <div id="tomorrowtem"></div>
+
+                        </div>
+
+                        <div id="tomorrowbox2">
+
+                                <div id="tomorrowweek2"></div>
+
+                                <div id="tomorrowweather2"></div>
+
+                                <div id="tomorrowtem2"></div>
+
+                        </div>
+
+                        <div id="tomorrowbox3">
+
+                                <div id="tomorrowweek3"></div>
+
+                                <div id="tomorrowweather3"></div>
+
+                                <div id="tomorrowtem3"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>            
+
+                <div id="icon_w"></div>
+
+                <div id="weather"></div>
+
+                <div id="weathert"></div>
             </div>
         </div>
     
@@ -204,7 +271,7 @@ else;
                         </div>
                     
                         <div id="xyxw">
-                            <div class="xyxw_top"><span class="text"></span><span><a href="http://news.hfut.edu.cn/" target="_blank">更多>></a></span></div><!--<div class="bgtext bgtext1">工大新闻 | NEWS OF HFUT</div>-->
+                            <div class="xyxw_top"><span class="text"></span><span><a href="<{$news_url}>" target="_blank">更多>></a></span></div><!--<div class="bgtext bgtext1">工大新闻 | NEWS OF HFUT</div>-->
                             <ul>
                                 <li><img class="tr" src="html/images/tr.png"/><a href="<{$news_0_url}>" target="_blank" title="<{$news_0_title}>"><{$news_0_title1}></a><span class="newstime"><{$news_0_date}></span></li>
                                 <li><img class="tr" src="html/images/tr.png"/><a href="<{$news_1_url}>" target="_blank" title="<{$news_1_title}>"><{$news_1_title1}></a><span class="newstime"><{$news_1_date}></span></li>
@@ -217,7 +284,7 @@ else;
                         </div>
                         <div class="dotted1"></div> 
                         <div id="tzgg">
-                        	<div class="tzgg_top"><span class="text"></span><a href="http://news.hfut.edu.cn/list-2-1.html" target="_blank">更多>></a></div><!--<div class="bgtext bgtext2">通知公告 | NOTICE</div>-->
+                        	<div class="tzgg_top"><span class="text"></span><a href="<{$notice_url}>" target="_blank">更多>></a></div><!--<div class="bgtext bgtext2">通知公告 | NOTICE</div>-->
                             <ul>
                                 <li><a href="<{$notice_0_url}>
                                 "title="<{$notice_0_title}>" target="_blank"><{$notice_0_title1}></a><span class="newsdate"><{$notice_0_date}>&nbsp;</span></li>
@@ -236,7 +303,7 @@ else;
                             </ul>
                     	</div>
                         <div id="bgjz">
-                        <div class="bgjz_top"><span class="text"></span><a href="http://news.hfut.edu.cn/html/bgjz/" target="_blank">更多>></a></div><!--<div class="bgtext bgtext2">报告讲座 | LECTURE</div>-->
+                        <div class="bgjz_top"><span class="text"></span><a href="<{$baogao_url}>" target="_blank">更多>></a></div><!--<div class="bgtext bgtext2">报告讲座 | LECTURE</div>-->
                         <ul>
                         <li><a href="<{$baogao_0_url}>
                         "title="<{$baogao_0_title}>" target="_blank"><{$baogao_0_title1}></a><span class="newsdate"><{$baogao_0_date}>&nbsp;</span></li>
@@ -256,7 +323,7 @@ else;
                         </div>
                         
                         <div id="zbcg">
-                        <div class="zbcg_top"><span class="text"></span><a href="http://news.hfut.edu.cn/html/zbxx/" target="_blank">更多>></a></div><!--<div class="bgtext bgtext2">招标采购 | BIDDING</div>-->
+                        <div class="zbcg_top"><span class="text"></span><a href="<{$zhaobiao_url}>" target="_blank">更多>></a></div><!--<div class="bgtext bgtext2">招标采购 | BIDDING</div>-->
                         <ul>
                         <li><a href="<{$zhaobiao_0_url}>
                         "title="<{$zhaobiao_0_title}>" target="_blank"><{$zhaobiao_0_title1}></a><span class="newsdate"><{$zhaobiao_0_date}>&nbsp;</span></li>
@@ -294,7 +361,7 @@ else;
                     <div class="bgtext bgtext5">信息门户</div>
 
                     <div id="mainlinksD">
-                    <a title="办公系统" href="http://oa.hfut.edu.cn" target="_blank"></a>
+                    <a title="办公系统" href="http://bg.hfut.edu.cn" target="_blank"></a>
                     </div>
                     <div class="bgtext bgtext6">办公系统</div>
                     
@@ -340,12 +407,10 @@ else;
         	<font class="tohamafont">Copyright&nbsp;&copy;&nbsp;2008</font>&nbsp;合肥工业大学&nbsp;&nbsp;地址：<a href="http://map.hfut.edu.cn/jtlx.html" target="_blank">安徽省合肥市屯溪路<font class="tohamafont">193</font>号<font class="tohamafont">(230009)</font></a>&nbsp;&nbsp;<a style="color:#FF9" href="http://www1.hfut.edu.cn" title="旧版主页" target="_blank">旧版主页</a>&nbsp;&nbsp;皖<font class="tohamafont">ICP</font>备<font class="tohamafont">020549</font>号</div>        
     </div>
     
-<!--触摸新闻图-->
 <script type="text/javascript" src="html/js/switch.js"></script>
 
-<script type="text/javascript" src="html/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="html/js/jquery-1.4.2.min.js"></script>
 
-<!--导航下拉菜单-->
 <script type="text/javascript">
 function cjMenu(ulElementId,speed)
 {
@@ -362,12 +427,10 @@ function cjMenu(ulElementId,speed)
 		$(this).children("ul").hide(300);
 	} );
 }
-
 cjMenu("ulnav",100);
 cjMenu("san",100);
 </script>
 
-<!--大图-->
 <script type="text/javascript" src="html/js/jquery.nivo.slider.pack.js "></script>
 <script type="text/javascript">
 	var total=$('#slider img').length;
@@ -377,11 +440,11 @@ cjMenu("san",100);
 	});
 </script>
 
-<!--提取后台提供的天气数据-->
 <script type="text/javascript" src="html/js/tianqi.js"></script>
-<!--天气、时间-->
 <script type="text/javascript" src="html/js/weatime.js"></script>
-<!--日历-->
+<script type="text/javascript">
+	doAjaxCall('html/weather.txt');
+</script>
 <script type="text/javascript" src="html/js/calendar.js"></script>
 
 </body>

@@ -1,0 +1,82 @@
+/*适应移动端布局*/
+.top,.head_img,#nav,#ulnav,#bigbox,#middle,#mid_left,#news,#copyright,#mid_right{width:340px}
+.xyxw_top,#xyxw ul li,.tzgg_top, .zbcg_top, .bgjz_top,#tzgg li, #zbcg li, #bgjz li{width:325px}
+#xyxw{height:auto;}
+#head{ height:98px;}
+#bigbox{ height:auto;margin-top: 10px;}
+#middle{ height:auto; margin-bottom:6px;}
+#news{ margin-top:8px;}
+#bannercontainer,#fwpt{display:none;}
+.dotted1{width:325px;}
+#nav li{width:80px;margin-left: -5px;}
+#index li{width:95px;}
+.head_img img{width:0;}
+#school{
+	width:338px;
+	}
+#nav{ height:71px;
+	background-image:url(../images/nav.gif);}
+#ulnav{margin-left:0; height:71px;}
+#index li,#ulnav li{ width:85px;margin-left:0; height:35px;}
+#ulnav li a{width:90px;}
+#ulnav li ul li ul{left:90px;}
+.zero, .zero:visited, .zero:hover{
+	background-image:url(../images/nav.gif);}
+
+.aone, .aone:visited, .aone:hover{
+	background:url(../images/nav.gif) no-repeat scroll -85px 0 rgba(0, 0, 0, 0);}
+
+.atwo, .atwo:visited, .atwo:hover{
+	background:url(../images/nav.gif) no-repeat scroll -170px 0 rgba(0, 0, 0, 0);}
+
+.athree, .athree:visited, .athree:hover{
+	background:url(../images/nav.gif) no-repeat scroll -255px 0 rgba(0, 0, 0, 0);}
+
+.afour, .afour:visited, .afour:hover{
+	background:url(../images/nav.gif) no-repeat scroll -340px 0 rgba(0, 0, 0, 0);}
+
+.afive, .afive:visited, .afive:hover{
+	background:url(../images/nav.gif) no-repeat scroll -425px 0 rgba(0, 0, 0, 0);}
+
+.akxyj, .akxyj:visited, .akxyj:hover{
+	background:url(../images/nav.gif) no-repeat scroll -510px 0 rgba(0, 0, 0, 0);}
+
+.azsjy, .azsjy:visited, .azsjy:hover{
+	background:url(../images/nav.gif) no-repeat scroll -595px 0 rgba(0, 0, 0, 0);}
+
+#ulnav li ul{left:-3px; top:36px; width:90px;}	
+
+#ulnav li ul li{width:90px;}
+
+#jdxw,#xyxw,#tzgg, #zbcg, #bgjz,#mid_right{
+	margin-left:4px;
+	width: 350px;}
+
+#mainlinksA, #mainlinksB, #mainlinksC, #mainlinksD, #mainlinksE, #mainlinksF, #mainlinksG, #mainlinksH, #mainlinksI, #mainlinksJ, #mainlinksK{margin-right:48px;}
+
+.bgtext3{margin-left:16px;margin-top:16px;}
+
+.bgtext4{margin-left:196px;margin-top:16px;}
+
+.bgtext5{margin-left:16px;margin-top:70px;}
+
+.bgtext6{margin-left:196px;margin-top:70px;}
+
+.bgtext7{margin-left:16px;margin-top:126px;}
+
+.bgtext8{margin-left:196px;margin-top:126px;}
+
+.bgtext9{margin-left:16px;margin-top:182px;}
+
+.bgtext10{margin-left:196px;margin-top:182px;}
+
+.bgtext11{margin-left:16px;margin-top:238px;}
+
+.bgtext12{margin-left:196px;margin-top:238px;}
+
+.bgtext13{margin-left:16px;margin-top:294px;}
+
+#copyright{
+	height:42px;
+	background:#183e50;
+	padding:0;}

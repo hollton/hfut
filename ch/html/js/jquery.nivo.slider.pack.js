@@ -1,4 +1,4 @@
-/*
+﻿/*
  * jQuery Nivo Slider v2.1
  * http://nivo.dev7studios.com
  *

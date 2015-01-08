@@ -1,14 +1,7 @@
 /*-----------------------天气------------------*/
 function doAjaxCall(the_request)
     {
-        var request=null;
-        if(window.XMLHttpRequest)
-        {
-            request=new XMLHttpRequest();
-        }else if(window.ActiveXObject)
-        {
-            request=new ActiveXObject("Microsoft.XMLHTTP");
-        }
+        var request=(window.XMLHttpRequest)?new XMLHttpRequest():new ActiveXObject("Microsoft.XMLHTTP");
         if(request)
         {
             request.open("GET",the_request,true);
@@ -18,8 +11,9 @@ function doAjaxCall(the_request)
                 {
                     if (request.status == 200 || request.status == 0)
                     {
-						var weather=request.responseText;
-						var city;
+					   var weather=request.responseText;  //ajax读取的数据
+					   var weather=request.responseText;
+					   var city;
 					   var sun;
 					   var tem;	
 					   function factorial(num)
@@ -75,71 +69,153 @@ function doAjaxCall(the_request)
 					   document.getElementById("tomorrowtem3").innerHTML=tomorrowtem3;
 					   document.getElementById("weather").innerHTML=sun;
 					   document.getElementById("weathert").innerHTML=tem;
+					   
+					   /*时间*/
+					   var time = new Date().getHours();
+					   
+					   /*封装背景颜色*/
+					   function yin(){						   
+					document.getElementById("todaybox").style.backgroundColor='#667785';
+					//document.getElementById("todaybox").style.backgroundImage='-webkit-linear-gradient(top, rgb(72, 86, 99), rgb(161, 184, 202))';
+					document.getElementById("tomorrowbox1").style.backgroundColor='#738695';
+					document.getElementById("tomorrowbox1").style.borderRightColor='rgb(105, 123, 138)';
+					document.getElementById("tomorrowbox2").style.backgroundColor='#738695';
+					document.getElementById("tomorrowbox2").style.borderRightColor='rgb(105, 123, 138)';
+					document.getElementById("tomorrowbox3").style.backgroundColor='#738695';
+					}
+					
+					   function yu(){						   
+					document.getElementById("todaybox").style.backgroundColor='#667785';		 					document.getElementById("todaybox").style.backgroundImage='url("images/yuBg.png")';
+					document.getElementById("tomorrowbox1").style.backgroundColor='#738695';
+					document.getElementById("tomorrowbox1").style.borderRightColor='rgb(105, 123, 138)';
+					document.getElementById("tomorrowbox2").style.backgroundColor='#738695';
+					document.getElementById("tomorrowbox2").style.borderRightColor='rgb(105, 123, 138)';
+					document.getElementById("tomorrowbox3").style.backgroundColor='#738695';
+					}
+					
+					   function qing(){
+						   if(time>=6 && time<=18){
+								document.getElementById("todaybox").style.backgroundColor='#2076C3';
+								document.getElementById("todaybox").style.backgroundImage='url("images/qingBg.png")';
+						   } else { document.getElementById("todaybox").style.backgroundColor='#2076C3'; }
+					document.getElementById("tomorrowbox1").style.backgroundColor='#4790d1';
+					document.getElementById("tomorrowbox1").style.borderRightColor='rgb(63, 130, 189)';
+					document.getElementById("tomorrowbox2").style.backgroundColor='#4790d1';
+					document.getElementById("tomorrowbox2").style.borderRightColor='rgb(63, 130, 189)';
+					document.getElementById("tomorrowbox3").style.backgroundColor='#4790d1';
+					
+					}
+					
+					   function xue(){						   
+					document.getElementById("todaybox").style.backgroundColor='#2076C3';
+					document.getElementById("todaybox").style.backgroundImage='url("images/xueBg.png")';
+					document.getElementById("tomorrowbox1").style.backgroundColor='#4790d1';
+					document.getElementById("tomorrowbox1").style.borderRightColor='rgb(63, 130, 189)';
+					document.getElementById("tomorrowbox2").style.backgroundColor='#4790d1';
+					document.getElementById("tomorrowbox2").style.borderRightColor='rgb(63, 130, 189)';
+					document.getElementById("tomorrowbox3").style.backgroundColor='#4790d1';
+					}
+					
+					   function def(){
+						   if(time>=6 && time<=18){						   
+							document.getElementById("todaybox").style.backgroundColor='#2076C3';
+							document.getElementById("todaybox").style.backgroundImage='-webkit-linear-gradient(top, rgb(13, 104, 188),rgb(81, 155, 221))'; } else { document.getElementById("todaybox").style.backgroundColor='#2076C3';}
+					document.getElementById("tomorrowbox1").style.backgroundColor='#4790d1';
+					document.getElementById("tomorrowbox1").style.borderRightColor='rgb(63, 130, 189)';
+					document.getElementById("tomorrowbox2").style.backgroundColor='#4790d1';
+					document.getElementById("tomorrowbox2").style.borderRightColor='rgb(63, 130, 189)';
+					document.getElementById("tomorrowbox3").style.backgroundColor='#4790d1';
+					
+					}
+					/*end*/
+					   // test
+					   /*
+					   tem='bingg';
+					   time=5;
+					   */
+					   
 					    if(tem.indexOf("大雨")>= 0){
-					document.getElementById("todaypic").style.backgroundImage='url("images/dy.png")';
+					document.getElementById("todaypic").style.backgroundImage='url("images/dy.png")';yu();
 						}
 						else if(tem.indexOf("中雨")>= 0)
 						{
-					document.getElementById("todaypic").style.backgroundImage='url("images/zy.png")';
+					document.getElementById("todaypic").style.backgroundImage='url("images/zy.png")';yu();
 						}		
 						else if(tem.indexOf("小雨")>= 0)
 						{
-					document.getElementById("todaypic").style.backgroundImage='url("images/xy.png")';
+					document.getElementById("todaypic").style.backgroundImage='url("images/xy.png")';yu();
+						}		
+						else if(tem.indexOf("雷阵雨")>= 0)
+						{
+					document.getElementById("todaypic").style.backgroundImage='url("images/lzy.png")';yu();
 						}
 						else if(tem.indexOf("雨")>= 0)
 						{
-					document.getElementById("todaypic").style.backgroundImage='url("images/zy.png")';
+					document.getElementById("todaypic").style.backgroundImage='url("images/zy.png")';yu();
 						}
 						else if(tem.indexOf("阴")>= 0)
 						{
-					document.getElementById("todaypic").style.backgroundImage='url("images/yt.png")';
+					document.getElementById("todaypic").style.backgroundImage='url("images/yt.png")';yin();
 						}
 						else if(tem.indexOf("雪")>= 0)
 						{
-					document.getElementById("todaypic").style.backgroundImage='url("images/xx.png")';
+					document.getElementById("todaypic").style.backgroundImage='url("images/xx.png")';xue();
 						}
 						else if(tem.indexOf("晴")>= 0){
-					document.getElementById("todaypic").style.backgroundImage='url("images/qt.png")';
+						   if(time>=6 && time<=18){	
+							  document.getElementById("todaypic").style.backgroundImage='url("images/qt.png")';
+						   } 
+						   else { document.getElementById("todaypic").style.backgroundImage='url("images/wq.png")';}
+						   qing();
 						}
 						else if(tem.indexOf("多云")>= 0){
-					document.getElementById("todaypic").style.backgroundImage='url("images/mr.png")';
+						   if(time>=6 && time<=18){	
+							  document.getElementById("todaypic").style.backgroundImage='url("images/cy.png")';
+						   } 
+						   else { document.getElementById("todaypic").style.backgroundImage='url("images/wc.png")';}
+						   qing();
 						}
 						else {
-					document.getElementById("todaypic").style.backgroundImage='url("images/mr.png")';
-							}
+						   if(time>=6 && time<=18){	
+							  document.getElementById("todaypic").style.backgroundImage='url("images/cy.png")';
+						   } 
+						   else { document.getElementById("todaypic").style.backgroundImage='url("images/wc.png")';}
+						   def();
+						}
+						
 						var week;
-								if(new Date().getDay()==0)          week="星期日";								
-								if(new Date().getDay()==1)          week="星期一";
-								if(new Date().getDay()==2)          week="星期二";
-								if(new Date().getDay()==3)          week="星期三";
-								if(new Date().getDay()==4)          week="星期四";
-								if(new Date().getDay()==5)          week="星期五";
-								if(new Date().getDay()==6)          week="星期六";
-								var week1;
-								if(new Date().getDay()==6)          week1="星期日";								
-								if(new Date().getDay()==0)          week1="星期一";
-								if(new Date().getDay()==1)          week1="星期二";
-								if(new Date().getDay()==2)          week1="星期三";
-								if(new Date().getDay()==3)          week1="星期四";
-								if(new Date().getDay()==4)          week1="星期五";
-								if(new Date().getDay()==5)          week1="星期六";
-								var week2;
-								if(new Date().getDay()==5)          week2="星期日";								
-								if(new Date().getDay()==6)          week2="星期一";
-								if(new Date().getDay()==0)          week2="星期二";
-								if(new Date().getDay()==1)          week2="星期三";
-								if(new Date().getDay()==2)          week2="星期四";
-								if(new Date().getDay()==3)          week2="星期五";
-								if(new Date().getDay()==4)          week2="星期六";
-								var week3;
-								if(new Date().getDay()==4)          week3="星期日";								
-								if(new Date().getDay()==5)          week3="星期一";
-								if(new Date().getDay()==6)          week3="星期二";
-								if(new Date().getDay()==0)          week3="星期三";
-								if(new Date().getDay()==1)          week3="星期四";
-								if(new Date().getDay()==2)          week3="星期五";
-								if(new Date().getDay()==3)          week3="星期六";
-								var todayweek=week;	
+						if(new Date().getDay()==0)          week="星期日";								
+						if(new Date().getDay()==1)          week="星期一";
+						if(new Date().getDay()==2)          week="星期二";
+						if(new Date().getDay()==3)          week="星期三";
+						if(new Date().getDay()==4)          week="星期四";
+						if(new Date().getDay()==5)          week="星期五";
+						if(new Date().getDay()==6)          week="星期六";
+						var week1;
+						if(new Date().getDay()==6)          week1="星期日";								
+						if(new Date().getDay()==0)          week1="星期一";
+						if(new Date().getDay()==1)          week1="星期二";
+						if(new Date().getDay()==2)          week1="星期三";
+						if(new Date().getDay()==3)          week1="星期四";
+						if(new Date().getDay()==4)          week1="星期五";
+						if(new Date().getDay()==5)          week1="星期六";
+						var week2;
+						if(new Date().getDay()==5)          week2="星期日";								
+						if(new Date().getDay()==6)          week2="星期一";
+						if(new Date().getDay()==0)          week2="星期二";
+						if(new Date().getDay()==1)          week2="星期三";
+						if(new Date().getDay()==2)          week2="星期四";
+						if(new Date().getDay()==3)          week2="星期五";
+						if(new Date().getDay()==4)          week2="星期六";
+						var week3;
+						if(new Date().getDay()==4)          week3="星期日";								
+						if(new Date().getDay()==5)          week3="星期一";
+						if(new Date().getDay()==6)          week3="星期二";
+						if(new Date().getDay()==0)          week3="星期三";
+						if(new Date().getDay()==1)          week3="星期四";
+						if(new Date().getDay()==2)          week3="星期五";
+						if(new Date().getDay()==3)          week3="星期六";
+						var todayweek=week;	
 					    document.getElementById("todayweek").innerHTML=todayweek;
 						document.getElementById("tomorrowweek").innerHTML=week1;
 						document.getElementById("tomorrowweek2").innerHTML=week2;
