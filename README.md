@@ -1,22 +1,36 @@
 ﻿## New Website Of HeFei University of Technology
-你可以在[HFUT](http://www.hfut.edu.cn '合肥工业大学')查看页面效果。
+	你可以在[HFUT](http://www.hfut.edu.cn '合肥工业大学')查看页面效果。
 ### 网站目录（为保障网站安全，已删除后台文件）：
 
-1. ch文件夹为主目录，cache及Include为后台代码。index.html首页静态页面，html下为二三级页面，images下为首页天气图标。
+1. ch
+   + cache及Include为后台代码
+   + index.html首页静态页面
+   + images下为首页天气图标
 
-2. html里index.tpl首页动态页面，weather.txt天气数据。
+2. html
+   + index.tpl首页动态页面
+   + weather.txt天气数据
+   + 其他为二三级页面
 
-3. css里wholestyle.css：总站css，nivo-slider.css：首页大图，second.css：子级页面css，mobile.css：为适应移动端调整css布局。
+3. css
+   + wholestyle.css：总站css
+   + nivo-slider.css：首页大图
+   + second.css：子级页面
+   + mobile.css：为适应移动端调整css布局
 
 4. js
-   - jquery-1.4.2.min.js：jquery库
-   - jquery.nivo.slider.pack.js：首页大图js库
-   - switch.js：首页小图
-   - tianqi.js：ajax获取天气数据并截取信息
-   - weatime.js：时间日期及显示天气内容
-   - calendar.js：日历
-   - navtop.js：二级页面导航条悬浮及回到顶部
-   - pop.js：机构设置弹出层。
+   + jquery-1.4.2.min.js：jquery库
+   + jquery.nivo.slider.pack.js：首页大图js库
+   + switch.js：首页小图
+   + tianqi.js：ajax获取天气数据并截取信息
+   + weatime.js：时间日期及显示天气内容
+   + calendar.js：日历
+   + navtop.js：二级页面导航条悬浮及回到顶部
+   + pop.js：机构设置弹出层
+
+5. images
+   + 页面图片
+   + 首页轮播图存储于MAP站点
 
 ### 2015-01-06代码整理 By Howard
 
