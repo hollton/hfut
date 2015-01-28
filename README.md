@@ -1,5 +1,5 @@
 ﻿## New Website Of HeFei University of Technology
-	你可以在[HFUT](http://www.hfut.edu.cn '合肥工业大学')查看页面效果。
+	你可以在[HFUT](http://www.hfut.edu.cn "合肥工业大学")查看页面效果。
 ### 网站目录（为保障网站安全，已删除后台文件）：
 
 1. ch
