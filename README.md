@@ -3,7 +3,7 @@
 ### 网站目录（为保障网站安全，已删除后台文件）：
 
 1. ch
-   + cache及Include为后台代码
+   * cache及Include为后台代码
    + index.html首页静态页面
    + images下为首页天气图标
 
