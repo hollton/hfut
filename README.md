@@ -1,5 +1,4 @@
-﻿# hfut
-New Website Of HeFei University of Technology
+﻿# New Website Of HeFei University of Technology
 网站目录（为保障网站安全，已删除后台文件）：
 	ch文件夹为主目录，cache及Include为后台代码。index.html首页静态页面，html下为二三级
 
