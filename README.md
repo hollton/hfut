@@ -1,4 +1,4 @@
-# hfut
+﻿# hfut
 New Website Of HeFei University of Technology
 网站目录（为保障网站安全，已删除后台文件）：
 	ch文件夹为主目录，cache及Include为后台代码。index.html首页静态页面，html下为二三级
@@ -22,8 +22,14 @@ switch.js：首页小图，tianqi.js：ajax获取天气数据并截取有用信�
 
 2、恢复天气功能，并适应天气状况及时间调整配色。
 
+
 2015-01-07代码整理 By Howard
 
 1、合并css代码；
 
 2、精简删除大量无用图片。
+
+
+2015-01-28代码整理 By Howard
+
+1、修复weather.php，每隔3个小时自动获取最新天气信息。
