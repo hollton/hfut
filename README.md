@@ -22,7 +22,6 @@
    + weatime.js：时间日期及显示天气内容
    + calendar.js：日历
    + navtop.js：二级页面导航条悬浮及回到顶部
-   + pop.js：机构设置弹出层
 5. images
    + 页面图片
    + 首页轮播图存储于MAP站点
