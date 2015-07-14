@@ -5,16 +5,16 @@
    + cache及Include：后台代码
    + index.html：首页静态页面
    + images：首页天气图标
-2. html
+2. ch/html
    + index.tpl：首页动态页面
    + weather.txt：天气数据
-   + 其他：二三级页面
-3. css
+   + xxx.html：二三级页面
+3. ch/html/css
    + wholestyle.css：总站css
    + nivo-slider.css：首页大图
    + second.css：子级页面
    + mobile.css：为适应移动端调整css布局
-4. js
+4. ch/html/js
    + jquery-1.4.2.min.js：jquery库
    + jquery.nivo.slider.pack.js：首页大图js库
    + switch.js：首页小图
@@ -22,7 +22,7 @@
    + weatime.js：时间日期及显示天气内容
    + calendar.js：日历
    + navtop.js：二级页面导航条悬浮及回到顶部
-5. images
+5. ch/html/images
    + 页面图片
    + 首页轮播图存储于MAP站点
 
