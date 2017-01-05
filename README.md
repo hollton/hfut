@@ -1,6 +1,6 @@
 ## New Website Of HeFei University of Technology
 你可以在[HFUT](http://www.hfut.edu.cn "合肥工业大学")查看页面效果。
-### 网站目录（为保障网站安全，已删除后台文件）：
+### 网站目录：
 1. ch
    + cache及Include：后台代码
    + index.html：首页静态页面
